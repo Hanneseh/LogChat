@@ -1,0 +1,46 @@
+Performance Score:
+Nr. Of total input items: 7
+Nr. of achieved input items: 6
+Nr. of total output items: 8
+Nr. of achievable output items: 7
+Nr. of achieved output items: 6
+Score: 6/7 = 0.8571
+
+
+Evaluation Checklist:
+1. John mentioned his good sleep ✅
+  1.1 LogChat logged Symptom sleep ❌
+2. John mentioned having a mild headache and less fatigue ✅
+  2.1 LogChat logged the symptom mild headache ✅
+  2.2 LogChat logged the symptom reduced fatigue ✅
+3. John mentioned making scrambled eggs with toast for breakfast ✅
+  3.1 LogChat logged the consumption of scrambled eggs with toast for breakfast ✅
+4. John mentioned having to take breaks while preparing breakfast ❌
+  4.1 LogChat logged the activity of preparing breakfast with breaks ❌
+5. John mentioned doing light stretching exercises for 15 minutes ✅
+  5.1 LogChat logged the activity of doing light stretching exercises for 15 minutes ✅
+6. John mentioned watching a movie on his laptop ✅
+  6.1 LogChat logged the activity of watching a movie on a laptop ✅
+7. John mentioned heating up pre-made soup for dinner ✅
+  7.1 LogChat logged the consumption of pre-made soup for dinner ✅
+
+Conversation Log:
+2022-07-26 10:27:53 - LogChat: Hi John! How are you?
+2022-07-26 10:27:53 - John: Hi. Today was okay. Slept in till 8, which is late for me these days [✅ 1.]. Had scrambled eggs for breakfast [✅ 3.]. That took some effort [❌ 4.]. Did some stretching [✅ 5.], and watched a movie [✅ 6.]. Soup for dinner [✅ 7.].
+2022-07-26 10:27:58 - LogChat: That sounds like a restful day, John. How did you find the stretching—was it refreshing or a bit challenging today?
+2022-07-26 10:27:59 - John: It was light stretching, specifically for ME/CFS. Did about 15 minutes [✅ 5.]. Felt okay after. Not too challenging, thankfully.
+2022-07-26 10:28:01 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Stretching", "description": "Light stretching specifically for ME/CFS", "occurred_at": "2022-07-26T09:00:00", "intensity": 3, "duration": 15, "amount": null, "purpose": "Exercise"} [✅ 5.1]
+2022-07-26 10:28:01 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Scrambled Eggs", "description": "Breakfast", "occurred_at": "2022-07-26T08:30:00", "amount": "1 serving", "purpose": "Breakfast"} [✅ 3.1]
+2022-07-26 10:28:01 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Soup", "description": "Dinner", "occurred_at": "2022-07-26T18:00:00", "amount": "1 serving", "purpose": "Dinner"} [✅ 7.1]
+2022-07-26 10:28:02 - LogChat: That's great to hear, John. How did watching the movie make you feel today—did it help you relax or was it more tiring than expected?
+2022-07-26 10:28:03 - John: It was alright. Relaxing, I guess. Didn't take too much energy. Just lying on the couch.
+2022-07-26 10:28:05 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Watching a movie", "description": "Relaxing, lying on the couch", "occurred_at": "2022-07-26T10:00:00", "intensity": 2, "duration": 120, "amount": null, "purpose": "Relaxation"} [✅ 6.1]
+2022-07-26 10:28:07 - LogChat: What kind of soup did you have for dinner?
+2022-07-26 10:28:08 - John: Just some pre-made stuff. Nothing fancy. I didn't have the energy to cook anything proper. [✅ 7.]
+2022-07-26 10:28:14 - LogChat: Did you experience any symptoms today, like fatigue or brain fog, and if so, how intense were they?
+2022-07-26 10:28:29 - John: Woke up with a mild headache [✅ 2.], but it wasn't too bad. Fatigue was there, but less than usual [✅ 2.]. That's why I managed to do a bit more today.
+2022-07-26 10:28:31 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Headache", "description": "Woke up with a mild headache", "occurred_at": "2022-07-26T08:00:00", "intensity": 3, "duration": 60} [✅ 2.1]
+2022-07-26 10:28:31 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Fatigue was there, but less than usual", "occurred_at": "2022-07-26T08:00:00", "intensity": 4, "duration": 1500} [✅ 2.2]
+2022-07-26 10:28:32 - LogChat: It's good that your fatigue was a bit less today. Did anything in particular help with that, do you think?
+2022-07-26 10:28:33 - John: Not really sure. Maybe the extra sleep? Or just a slightly better day. It comes and goes, you know? Nothing I did specifically, I think. [✅ 1.]
+2022-07-26 10:28:37 - LogChat: Do you have any plans or activities for the rest of the day that might affect your energy levels?

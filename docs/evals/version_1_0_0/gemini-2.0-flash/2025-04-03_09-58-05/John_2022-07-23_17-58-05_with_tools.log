@@ -1,0 +1,54 @@
+2022-07-23 17:58:06 - LogChat: Hi John! How are you?
+2022-07-23 17:58:06 - John: Not great. Tired as usual.
+2022-07-23 17:58:08 - LogChat: I'm sorry to hear that, John. Fatigue can be really tough to deal with. 
+
+Could you tell me a bit more about it? Is it a constant feeling, or does it come and go?
+2022-07-23 17:58:09 - John: It's pretty constant, but it gets worse after doing stuff. Like going to the supermarket this morning. That wiped me out.
+2022-07-23 17:58:10 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Constant fatigue, worsened by activity", "occurred_at": "2022-07-23T17:58:09", "intensity": null, "duration": null}
+2022-07-23 17:58:10 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Going to the supermarket", "description": "Went to the supermarket this morning", "occurred_at": "2022-07-23T10:00:00", "intensity": null, "duration": null, "amount": null, "purpose": null}
+2022-07-23 17:58:11 - LogChat: It sounds like you might be experiencing post-exertional malaise (PEM), where your symptoms get worse after activity. Have you noticed this pattern before with grocery shopping, or is it just sometimes?
+2022-07-23 17:58:12 - John: Yeah, I guess so. It's always bad after grocery shopping, but today it was REALLY bad. I had to lie down for hours.
+2022-07-23 17:58:14 - UPDATE: SYMPTOM LOG - Args: {"id": 315, "name": "Fatigue", "description": "Constant fatigue, worsened by activity, especially after grocery shopping. Today it was REALLY bad and I had to lie down for hours.", "occurred_at": "2022-07-23T10:00:00", "intensity": null, "duration": null}
+2022-07-23 17:58:15 - LogChat: It's really interesting that you feel like the fatigue was REALLY bad today. On a scale of 1 to 10, with 1 being barely noticeable and 10 being the worst you can imagine, where would you rate your fatigue today?
+2022-07-23 17:58:16 - John: Like an 8, maybe. The headache is also there, like always. It was a light one, though.
+2022-07-23 17:58:17 - UPDATE: SYMPTOM LOG - Args: {"id": 315, "name": "Fatigue", "description": "Constant fatigue, worsened by activity, especially after grocery shopping. Today it was REALLY bad and I had to lie down for hours.", "occurred_at": "2022-07-23T10:00:00", "intensity": 8, "duration": null}
+2022-07-23 17:58:17 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Headache", "description": "Light headache", "occurred_at": "2022-07-23T10:00:00", "intensity": 3, "duration": null}
+2022-07-23 17:58:18 - LogChat: An 8 is definitely on the higher side - I'm sorry to hear that. Is the headache also related to going to the supermarket, or do you think it is something else?
+2022-07-23 17:58:19 - John: I think the sun might have made it worse. I forgot my sunglasses.
+2022-07-23 17:58:22 - LogChat: Okay, let's log the potential impact of the sun. How long were you exposed to the sun without sunglasses?
+2022-07-23 17:58:23 - John: Maybe half an hour? I don't know exactly. It was sunny most of the time when I walked to the store and back.
+2022-07-23 17:58:24 - CREATE: EXPERIENCE LOG - Args: {"id": null, "name": "Sun exposure without sunglasses", "description": "Walking to the supermarket and back without sunglasses", "occurred_at": "2022-07-23T10:00:00", "intensity": 5, "duration": 30}
+2022-07-23 17:58:25 - LogChat: Okay, half an hour it is. Do you remember around what time you were walking to the store and back?
+2022-07-23 17:58:26 - John: I left around 10:30 and got back around 11:30.
+2022-07-23 17:58:31 - LogChat: It sounds like you've identified a few factors that might have contributed to your fatigue and headache today: grocery shopping and sun exposure. Do you think there's anything you could do differently next time to minimize these triggers?
+2022-07-23 17:58:32 - John: Sunglasses, for sure. Maybe order groceries online, but I like to pick my own stuff. It's also the only thing I do all day.
+2022-07-23 17:58:35 - LogChat: Picking your own groceries is a nice change of pace! Maybe next time you could go during a less sunny time of day?
+
+Do you think the grocery shopping took approximately an hour?
+2022-07-23 17:58:36 - John: Yeah, about an hour. I rested before and after.
+2022-07-23 17:58:38 - UPDATE: ACTIVITY LOG - Args: {"id": 316, "name": "Going to the supermarket", "description": "Went to the supermarket this morning", "occurred_at": "2022-07-23T10:00:00", "intensity": null, "duration": 60, "amount": null, "purpose": null}
+2022-07-23 17:58:40 - LogChat: Okay, great! So we've got a good picture of your morning.
+
+Do you feel like you have properly rested before and after the activity or could you have done something differently?
+2022-07-23 17:58:41 - John: I rested, yeah. I don't know what else I could do. I ate something small, too. Some fruit and a grilled cheese.
+2022-07-23 17:58:43 - UPDATE: SYMPTOM LOG - Args: {"id": 315, "name": null, "description": null, "occurred_at": null, "intensity": 8, "duration": null}
+2022-07-23 17:58:43 - UPDATE: SYMPTOM LOG - Args: {"id": 317, "name": null, "description": null, "occurred_at": null, "intensity": 3, "duration": null}
+2022-07-23 17:58:43 - UPDATE: ACTIVITY LOG - Args: {"id": 316, "name": null, "description": null, "occurred_at": null, "intensity": null, "duration": 60, "amount": null, "purpose": null}
+2022-07-23 17:58:43 - UPDATE: EXPERIENCE LOG - Args: {"id": 318, "name": null, "description": null, "occurred_at": null, "intensity": 5, "duration": 30}
+2022-07-23 17:58:43 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Fruit and grilled cheese", "description": "A small meal before resting.", "occurred_at": "2022-07-23T10:00:00", "amount": null, "purpose": null}
+2022-07-23 17:58:45 - LogChat: That sounds like a good plan. Sometimes, even with rest, certain activities can still be really draining. Do you think the type of food you ate had an impact on your energy levels, or was it just a matter of needing to eat something?
+2022-07-23 17:58:46 - John: I always eat that. It's easy. I don't think it made a difference. The fatigue is just always there.
+2022-07-23 17:58:49 - UPDATE: SYMPTOM LOG - Args: {"id": 315, "name": "Fatigue", "description": "Constant fatigue, worsened by activity, especially after grocery shopping. Today it was REALLY bad and I had to lie down for hours.", "occurred_at": "2022-07-23T10:00:00", "intensity": 8, "duration": 1500}
+2022-07-23 17:58:49 - UPDATE: SYMPTOM LOG - Args: {"id": 317, "name": "Headache", "description": "Light headache", "occurred_at": "2022-07-23T10:00:00", "intensity": 3, "duration": 1500}
+2022-07-23 17:58:51 - LogChat: I understand. It sounds like you have a pretty consistent routine.
+
+Since the fatigue is always there, have you found any strategies that help you manage it, even if just a little?
+2022-07-23 17:58:52 - John: Not really. I just try to rest as much as possible. And not do too much. But it's hard. I'm bored. I was also reading about Long Covid online today. That was tiring, too. Reddit and stuff.
+2022-07-23 17:58:56 - LogChat: Okay, let's get this activity logged!
+
+How long did you spend reading about Long Covid?
+2022-07-23 17:58:57 - John: Maybe an hour? It's hard to say. I was just clicking around. It was after I ate.
+2022-07-23 17:58:59 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Reading about Long Covid", "description": "Reading about Long Covid on Reddit", "occurred_at": "2022-07-23T11:30:00", "intensity": null, "duration": 60, "amount": null, "purpose": "Information"}
+2022-07-23 17:59:01 - LogChat: Alright, let's put down approximately one hour.
+
+What time was that, roughly?

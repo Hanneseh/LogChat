@@ -1,0 +1,40 @@
+Performance Score:
+Nr. Of total input items: 7
+Nr. of achieved input items: 3
+Nr. of total output items: 8
+Nr. of achievable output items: 3
+Nr. of achieved output items: 1
+Score: 1/3 = 0.3333
+
+
+Evaluation Checklist:
+1. John mentioned his good sleep ❌
+  1.1 LogChat logged Symptom sleep ❌
+2. John mentioned having a mild headache and less fatigue ❌
+  2.1 LogChat logged the symptom mild headache ❌
+  2.2 LogChat logged the symptom reduced fatigue ❌
+3. John mentioned making scrambled eggs with toast for breakfast ✅
+  3.1 LogChat logged the consumption of scrambled eggs with toast for breakfast ❌
+4. John mentioned having to take breaks while preparing breakfast ❌
+  4.1 LogChat logged the activity of preparing breakfast with breaks ❌
+5. John mentioned doing light stretching exercises for 15 minutes ✅
+  5.1 LogChat logged the activity of doing light stretching exercises for 15 minutes ✅
+6. John mentioned watching a movie on his laptop ✅
+  6.1 LogChat logged the activity of watching a movie on a laptop ❌
+7. John mentioned heating up pre-made soup for dinner ❌
+  7.1 LogChat logged the consumption of pre-made soup for dinner ❌
+
+Conversation Log:
+2022-07-26 10:21:06 - LogChat: Hi John! How are you?
+2022-07-26 10:21:06 - John: Hi. I'm okay, I guess. A bit better than usual today. [✅ 2.]
+2022-07-26 10:21:13 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": null, "occurred_at": "2022-07-26T10:21:06", "intensity": null, "duration": 1500} [❌ 2.2]
+2022-07-26 10:21:16 - LogChat: That's great to hear you're feeling a bit better today! What do you think might have contributed to that relief from fatigue for you?
+2022-07-26 10:21:16 - John: Not sure really. Slept almost 10 hours [✅ 1.]. Maybe that helped.
+2022-07-26 10:21:23 - UPDATE: SYMPTOM LOG - Args: {"id": 509, "name": null, "description": null, "occurred_at": null, "intensity": null, "duration": 1500} [❌ 2.2]
+2022-07-26 10:21:26 - LogChat: I'm glad you got some rest. Did you end up doing anything productive today despite feeling relatively better, or did you take it easy?
+2022-07-26 10:21:26 - John: I made myself breakfast [✅ 3.]. Scrambled eggs. And did some stretching [✅ 5.]. Nothing major. Watched a movie too [✅ 6.].
+2022-07-26 10:21:34 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Scrambled eggs", "description": "Breakfast", "occurred_at": "2022-07-26T10:00:00", "intensity": null, "duration": 30, "amount": null, "purpose": "breakfast"} [❌ 3.1]
+2022-07-26 10:21:37 - LogChat: That sounds like a nice relaxing morning. What kind of stretching did you do, was it more intense than usual or just a gentle stretch?
+2022-07-26 10:21:38 - John: Just some light stretching exercises I found online. For ME/CFS. Only 15 minutes.
+2022-07-26 10:21:46 - UPDATE: ACTIVITY LOG - Args: {"id": 511, "name": "Light stretching exercises", "description": "15 minutes of light stretching for ME/CFS", "occurred_at": "2022-07-26T10:21:38", "intensity": null, "duration": 15, "amount": null, "purpose": "relaxation"} [✅ 5.1]
+2022-07-26 10:21:50 - LogChat: It sounds like you're being mindful of your energy levels and taking it easy, which is a great approach for managing ME/CFS. One thing I've found helpful is to listen to my body and adjust activities based on how I feel. Do you find that since you started taking it easy today, your fatigue level has been consistent or is it decreasing gradually?

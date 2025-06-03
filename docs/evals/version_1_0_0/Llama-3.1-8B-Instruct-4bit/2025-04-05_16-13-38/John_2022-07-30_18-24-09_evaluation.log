@@ -1,0 +1,52 @@
+Performance Score:
+Nr. Of total input items: 9
+Nr. of achieved input items: 7
+Nr. of total output items: 11
+Nr. of achievable output items: 10
+Nr. of achieved output items: 4
+Score: 4/10 = 0.4000
+
+
+Evaluation Checklist:
+1. John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep ❌
+  1.1 LogChat logged Symptom unrefreshing sleep of duration 8.5h ❌
+2. John mentioned having moderate fatigue and a dull ache in his muscles ✅
+  2.1 LogChat logged the symptom moderate fatigue ✅
+  2.2 LogChat logged the symptom dull muscle ache ✅
+3. John mentioned eating porridge for breakfast and drinking green tea ✅
+  3.1 LogChat logged the consumption of porridge for breakfast ❌
+  3.2 LogChat logged the consumption of green tea ❌
+4. John mentioned the task of the day was to tidy up the living room ✅
+  4.1 LogChat logged the activity of tidying up the living room ❌
+5. John mentioned working in 10-minute intervals with 5-minute breaks ❌
+6. John mentioned having a salad for lunch ✅
+  6.1 LogChat logged the consumption of salad for lunch ❌
+7. John mentioned feeling increased muscle aches and fatigue in the evening ✅
+  7.1 LogChat logged the symptom increased muscle ache ✅
+  7.2 LogChat logged the symptom increased fatigue ✅
+8. John mentioned taking a warm bath ✅
+  8.1 LogChat logged the activity of taking a warm bath ❌
+9. John mentioned eating pasta with pesto for dinner ✅
+  9.1 LogChat logged the consumption of pasta with pesto for dinner ❌
+
+Conversation Log:
+2022-07-30 18:24:10 - LogChat: Hi John! How are you?
+2022-07-30 18:24:10 - John: Hi. Okay, I guess. Tired [✅ 2., ✅ 7.2]. Just finished tidying up the living room [✅ 4.].
+2022-07-30 18:24:17 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Just finished tidying up the living room", "occurred_at": "2022-07-30T18:24:10", "intensity": 5, "duration": 1500} [✅ 2.1, ✅ 7.2]
+2022-07-30 18:24:20 - LogChat: Did you notice how quickly your fatigue increased after tidying up, and would that have been worse if you had kept going?
+2022-07-30 18:24:21 - John: Yeah, the muscle aches [✅ 2., ✅ 7.1] are definitely worse now that I'm done. I think if I hadn't taken breaks [❌ 5.], I would have crashed completely. It would have been much worse. The pacing helped, I think [❌ 5.].
+2022-07-30 18:24:29 - UPDATE: SYMPTOM LOG - Args: {"id": 514, "name": "Muscle aches", "description": "Increased after tidying up the living room", "occurred_at": "2022-07-30T18:24:21", "intensity": 6, "duration": 1500} [✅ 2.2, ✅ 7.1]
+2022-07-30 18:24:32 - LogChat: That's a great insight, John. I think it's really helpful that you're starting to notice the relationship between your physical activity and how you feel afterward.
+2022-07-30 18:24:33 - John: Yeah, I read about it online. Trying to learn how to manage this thing. It's not easy.
+2022-07-30 18:24:41 - UPDATE: SYMPTOM LOG - Args: {"id": 514, "name": "Muscle aches", "description": "Worse after tidying up the living room", "occurred_at": "2022-07-30T18:24:33", "intensity": 8, "duration": 1500} [✅ 2.2, ✅ 7.1]
+2022-07-30 18:24:44 - LogChat: It sounds like you've been learning a lot from your experiences so far. What's the biggest challenge that comes up for you when trying to apply what you've learned about pacing in your daily life?
+2022-07-30 18:24:45 - John: Probably just sticking to it. It's hard to stop when you feel like you can do a little more. And then you pay for it later. Also, it takes so long to do anything. Like cleaning the living room took all day. It's frustrating.
+2022-07-30 18:24:58 - LogChat: I completely understand what you mean by it taking so long to do anything. It's like the tasks just keep piling up, and before you know it, you're exhausted. What do you think would make it feel less overwhelming for you to break tasks into smaller jobs throughout the day, like we talked about earlier?
+2022-07-30 18:24:59 - John: Hmm, maybe if I had someone to help me stay on track. Or if I didn't feel guilty about taking breaks. I always feel like I should be doing more. Also, I had porridge and green tea for breakfast [✅ 3.] and salad for lunch [✅ 6.], and pasta for dinner [✅ 9.]. Maybe my diet is not helping.
+2022-07-30 18:25:12 - LogChat: How did the muscle aches after tidying up feel, and what did you do to manage them?
+2022-07-30 18:25:13 - John: They were just dull and achy [✅ 2.]. Like after a workout, but not in a good way. I took a warm bath [✅ 8.]. It helped a little.
+2022-07-30 18:25:22 - UPDATE: SYMPTOM LOG - Args: {"id": 514, "name": "Muscle aches", "description": "Just like after a workout, but not in a good way", "occurred_at": "2022-07-30T18:25:13", "intensity": 5, "duration": 1500} [✅ 2.2]
+2022-07-30 18:25:27 - LogChat: Considering your fatigue increased after tidying up, and taking breaks helped you avoid crashing completely, it might be helpful to think about how you can apply pacing in a way that feels more manageable and less overwhelming for you.
+2022-07-30 18:25:29 - John: Yeah, maybe. I'll keep trying. It's just hard to stay motivated when it takes so long to do anything.
+2022-07-30 18:25:38 - UPDATE: SYMPTOM LOG - Args: {"id": 514, "name": "Muscle aches", "description": "Just like after a workout, but not in a good way", "occurred_at": "2022-07-30T18:25:29", "intensity": 5, "duration": 1500} [✅ 2.2]
+2022-07-30 18:25:42 - LogChat: It sounds like taking a warm bath helped the muscle aches feel slightly better.

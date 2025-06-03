@@ -1,0 +1,60 @@
+Performance Score:
+Nr. Of total input items: 9
+Nr. of achieved input items: 9
+Nr. of total output items: 11
+Nr. of achievable output items: 11
+Nr. of achieved output items: 10
+Score: 10/11 = 0.9091
+
+
+Evaluation Checklist:
+1. John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep ✅
+  1.1 LogChat logged Symptom unrefreshing sleep of duration 8.5h ❌
+2. John mentioned having moderate fatigue and a dull ache in his muscles ✅
+  2.1 LogChat logged the symptom moderate fatigue ✅
+  2.2 LogChat logged the symptom dull muscle ache ✅
+3. John mentioned eating porridge for breakfast and drinking green tea ✅
+  3.1 LogChat logged the consumption of porridge for breakfast ✅
+  3.2 LogChat logged the consumption of green tea ✅
+4. John mentioned the task of the day was to tidy up the living room ✅
+  4.1 LogChat logged the activity of tidying up the living room ✅
+5. John mentioned working in 10-minute intervals with 5-minute breaks ✅
+6. John mentioned having a salad for lunch ✅
+  6.1 LogChat logged the consumption of salad for lunch ✅
+7. John mentioned feeling increased muscle aches and fatigue in the evening ✅
+  7.1 LogChat logged the symptom increased muscle ache ✅
+  7.2 LogChat logged the symptom increased fatigue ✅
+8. John mentioned taking a warm bath ✅
+  8.1 LogChat logged the activity of taking a warm bath ✅
+9. John mentioned eating pasta with pesto for dinner ✅
+  9.1 LogChat logged the consumption of pasta with pesto for dinner ✅
+
+Conversation Log:
+2022-07-30 18:29:41 - LogChat: Hi John! How are you?
+2022-07-30 18:29:41 - John: Hi. Tired, but I managed to tidy up the living room today [✅ 4.].
+2022-07-30 18:29:43 - LogChat: It's great that you managed to tidy up the living room today, even though you're feeling tired. How are you feeling right now, after your activity?
+2022-07-30 18:29:44 - John: More muscle aches and fatigue now [✅ 7.]. I took a warm bath [✅ 8.], which helped a bit.
+2022-07-30 18:29:47 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Tidying up the living room", "description": "Tidied up the living room despite feeling tired.", "occurred_at": "2022-07-30T18:00:00", "intensity": 5, "duration": 30, "amount": null, "purpose": "cleaning"} [✅ 4.1]
+2022-07-30 18:29:47 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Muscle Aches", "description": "Increased muscle aches after tidying up the living room.", "occurred_at": "2022-07-30T18:29:00", "intensity": 6, "duration": 60} [✅ 7.1, 2.2]
+2022-07-30 18:29:47 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Increased fatigue after tidying up the living room.", "occurred_at": "2022-07-30T18:29:00", "intensity": 7, "duration": 60} [✅ 7.2, 2.1]
+2022-07-30 18:29:47 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Warm Bath", "description": "Took a warm bath to alleviate muscle aches and fatigue.", "occurred_at": "2022-07-30T18:20:00", "intensity": 2, "duration": 20, "amount": null, "purpose": "relaxation"} [✅ 8.1]
+2022-07-30 18:29:49 - LogChat: I'm glad the warm bath provided some relief. Have you considered breaking up your tasks into smaller chunks to help manage your energy levels?
+2022-07-30 18:29:50 - John: Yeah, I tried that today. Pacing [✅ 5.]. 10 minutes work, 5 minutes rest [✅ 5.]. It...sort of worked. Living room's tidy now. But I'm wiped.
+2022-07-30 18:29:55 - LogChat: It's impressive that you gave pacing a try! How did you feel during your rest periods, and did you encounter any challenges with the pacing approach today?
+2022-07-30 18:29:56 - John: Rest periods were good. Needed them. Challenge was... sticking to it. Wanted to just get it done, you know? But I stopped myself. Didn't want to crash completely.
+2022-07-30 18:30:03 - LogChat: Did you notice any particular symptoms or changes during your rest periods that might give us a sense of how well the pacing strategy worked for you today?
+2022-07-30 18:30:04 - John: Muscle ache was less during the rests. Fatigue... stayed about the same, maybe a little better after the bath. Woke up with moderate fatigue this morning [✅ 2.]. Slept 8.5 hours [✅ 1.], less than usual [✅ 1.].
+2022-07-30 18:30:07 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Pacing", "description": "Tried pacing with 10 minutes work and 5 minutes rest while tidying up the living room.", "occurred_at": "2022-07-30T18:00:00", "intensity": 5, "duration": 30, "amount": null, "purpose": "energy management"} [✅ 5.]
+2022-07-30 18:30:07 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Woke up with moderate fatigue after sleeping 8.5 hours, less than usual.", "occurred_at": "2022-07-30T08:00:00", "intensity": 5, "duration": 1500} [❌ 1.1, ✅ 2.1]
+2022-07-30 18:30:07 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Muscle Aches", "description": "Muscle ache was less during rest periods while pacing.", "occurred_at": "2022-07-30T18:00:00", "intensity": 4, "duration": 30} [✅ 2.2]
+2022-07-30 18:30:10 - LogChat: It sounds like you're doing your best to manage your energy, even on days when you wake up feeling more fatigued. Do you have any plans for how you might approach tomorrow, given how today went?
+2022-07-30 18:30:11 - John: No plans. See how I feel. Maybe a short walk if the muscle aches aren't too bad. Just...rest, probably.
+2022-07-30 18:30:18 - LogChat: Do you have any specific strategies in mind for managing your symptoms if you decide to go for a walk tomorrow?
+2022-07-30 18:30:20 - John: Not really. Just... go slow. Turn back if I need to. It's just a short walk, nothing crazy. Had porridge and green tea for breakfast [✅ 3.]. Salad for lunch [✅ 6.]. Pasta and pesto for dinner [✅ 9.]. Just so you know.
+2022-07-30 18:30:23 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Porridge", "description": "Had porridge and green tea for breakfast.", "occurred_at": "2022-07-30T08:30:00", "amount": "1 bowl", "purpose": "breakfast"} [✅ 3.1]
+2022-07-30 18:30:23 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Green Tea", "description": "Had porridge and green tea for breakfast.", "occurred_at": "2022-07-30T08:30:00", "amount": "1 cup", "purpose": "breakfast"} [✅ 3.2]
+2022-07-30 18:30:23 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Salad", "description": "Salad for lunch.", "occurred_at": "2022-07-30T12:30:00", "amount": "1 serving", "purpose": "lunch"} [✅ 6.1]
+2022-07-30 18:30:23 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Pasta and Pesto", "description": "Pasta and pesto for dinner.", "occurred_at": "2022-07-30T18:00:00", "amount": "1 serving", "purpose": "dinner"} [✅ 9.1]
+2022-07-30 18:30:28 - LogChat: That sounds like a nutritious day! Going slow and turning back if needed are great ways to pace yourself on a walk. Is there anything in particular you enjoy about your walks?
+2022-07-30 18:30:29 - John: Fresh air. Seeing some green. Anything else you need to know? I'm pretty tired.
+2022-07-30 18:30:38 - LogChat: Fresh air and greenery can be so rejuvenating. Before you rest, is there any specific part of the day you'd like to reflect on or talk about a bit more?

@@ -1,0 +1,20 @@
+2022-07-27 14:11:07 - LogChat: Hi John! How are you?
+2022-07-27 14:11:07 - John: Terrible. Headache, fatigue, light and noise are too much.
+2022-07-27 14:11:11 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Headache", "description": null, "occurred_at": "2022-07-27T14:11:07", "intensity": 10, "duration": 1500}
+2022-07-27 14:11:12 - LogChat: That sounds like a really tough day so far. Are you feeling like the headache is going anywhere, or does it seem to be lingering?
+2022-07-27 14:11:13 - John: Lingering. Been in bed all day. Curtains closed, earplugs in.
+2022-07-27 14:11:17 - UPDATE: SYMPTOM LOG - Args: {"id": 505, "name": "Headache", "description": "Lingering, been in bed all day. Curtains closed, earplugs in.", "occurred_at": "2022-07-27T14:11:07", "intensity": 10, "duration": null}
+2022-07-27 14:11:18 - LogChat: Does your energy level seem to be getting worse as the day goes on, or has it remained relatively stable since morning?
+2022-07-27 14:11:19 - John: Worse. Barely made it to the bathroom this morning. No food. Water only.
+2022-07-27 14:11:23 - UPDATE: SYMPTOM LOG - Args: {"id": 505, "name": "Fatigue", "description": "Worse throughout the day, barely made it to the bathroom this morning. No food. Water only.", "occurred_at": "2022-07-27T14:11:19", "intensity": 10, "duration": 1500}
+2022-07-27 14:11:24 - LogChat: Does your sleep quality seem to be affected by the fatigue, or is it relatively stable?
+2022-07-27 14:11:25 - John: Didn't sleep well last night. Probably the reason why today is so bad.
+2022-07-27 14:11:29 - UPDATE: SYMPTOM LOG - Args: {"id": 505, "name": "Headache", "description": "Lingering. Been in bed all day. Curtains closed, earplugs in.", "occurred_at": "2022-07-27T14:11:19", "intensity": 10, "duration": 1500}
+2022-07-27 14:11:31 - LogChat: Are you feeling like you're able to re-establish your daily routine and start getting some light activities going as the day progresses, or do you feel like the fatigue is still pretty overwhelming?
+2022-07-27 14:11:31 - John: No way. Bed is the only place I can be today. Sister called, couldn't even talk much.
+2022-07-27 14:11:36 - UPDATE: SYMPTOM LOG - Args: {"id": 505, "name": null, "description": "Lingering headache, fatigue, light and noise are too much.", "occurred_at": "2022-07-27T14:11:19", "intensity": 10, "duration": 1500}
+2022-07-27 14:11:37 - LogChat: Are you finding that your energy levels are more unpredictable than usual, or is this just a particularly rough day?
+2022-07-27 14:11:38 - John: It's been like this for weeks. Sick leave from work. Doctors don't get it.
+2022-07-27 14:11:44 - LogChat: It sounds like today's symptoms might be related to your sleep quality from last night and the fact that you didn't get much rest.
+2022-07-27 14:11:45 - John: Maybe. Just want to track this crash.
+2022-07-27 14:11:51 - LogChat: It sounds like you're feeling completely drained and overwhelmed today, which is really tough to deal with. Are you doing anything that's helping take your mind off the headache and fatigue, like reading a book or listening to music?

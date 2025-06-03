@@ -1,0 +1,301 @@
+{
+    "1": {
+        "name": "John",
+        "description": "You are John Doe, a 32-year-old single man living alone with Long Covid. You work as a company employee in the sales department. You don't have kids. You had corona three times over the course of the pandemic, from 2020 to 2022. After the third time in May 2022, you did not quite recover. The fatigue stayed with you. At first, it was only subtle, and you thought it was the usual energy dip after being sick. But after four more weeks went by, you went to several doctors who could not really help you. Besides giving you some general advice, like paying attention to your sleep habits, being more active, and spending more time outside, you didn't get much out of it. You currently don't go to your doctor anymore because you feel like you are a burden and they don't take you seriously anymore. But you know that it's real; it's not like you are depressed or you don't want to work. It's truly the physical fatigue and exhaustion that is holding you back. You have been on sick leave from work for two weeks. Officially, you have a burnout diagnosis, but you feel deep down that this is not accurate. Three months ago, you first acknowledged that something was wrong and that you sought medical help. But so far, your symptoms and condition have only gotten worse. Although you have a social personality and a couple of close friends and family nearby, you have not asked them for help yet, as they are busy with their own lives, and you are not really sure how they could help you. You have already declined some invitations from them, as you felt like you did not have the energy to engage socially. You are starting to feel how the condition you are in is starting to isolate you, and you are starting to have more and more concerns about how it will affect you financially.",
+        "interactions": {
+            "2022-07-23 17:00:00": {
+                "daily_report": "You woke up today at your usual time of 7:30 AM after about 9h of sleeping, with the usual light headache and fatigue. You ate your porridge as every morning and rested for about 45 min before taking a shower and brushing your teeth. After another quick rest, it was time for the main task of the day: walking to the supermarket to buy groceries. You always try to make the 150m walk without stopping; today, you succeeded with that. You always go on weekdays between 10 and 11, as this is the quietest time. You were back home at 11:30 AM. You were fully exhausted, and after putting the groceries in the fridge, you lay down on the couch with your eyes covered. Today was a sunny day, and you did not wear any sunglasses. You attribute the increased symptom severity to the usual effort of grocery shopping, although the symptom severity was higher than ever seen before. After recovering a bit with a light meal of some fruits and a grilled cheese sandwich, you spent some time googling Long Covid and noticed that you are quite uneducated about it. Reading through many Reddit posts and news articles is exhausting. You have found this app called LogChat, which is supposed to support ME/CFS and Long Covid patients by talking to a chatbot. You mainly think its for educational purposes. You are sceptinc of the app, but since it's free, you decide to give it a try. You complete the simple sign-up process, and then a chat window opens where you get greeted with your name. This is the first time you are interacting with the app and start learning how to use it.",
+                "evaluation_checklist": [
+                    {
+                        "input": "John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep",
+                        "output": [
+                            "LogChat logged the symptom unrefreshing sleep of duration 9h"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned taking a shower",
+                        "output": [
+                            "LogChat logged the activity of taking a shower"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned brushing his teeth",
+                        "output": [
+                            "LogChat logged the activity of brushing teeth"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned eating porridge for breakfast",
+                        "output": [
+                            "LogChat logged the consumption porridge for breakfast"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned going grocery shopping",
+                        "output": [
+                            "LogChat logged the activity of grocery shopping"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned the distance to the supermarket",
+                        "output": [
+                            "LogChat logged the activity of walking 150m"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned the time of day he went grocery shopping",
+                        "output": [
+                            "LogChat logged the time of grocery shopping around 10-11 AM"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned the bright sunshine and not wearing sunglasses",
+                        "output": [
+                            "LogChat logged the experience of bright sunshine",
+                            "LogChat educated John about the heighten sensitivity of the nervous system of ME/CFS patients and that bright sunshine can be very exhausting"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned feeling exhausted after grocery shopping with increased headache and fatigue",
+                        "output": [
+                            "LogChat logged the experience of increased headache and fatigue after grocery shopping"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned eating a dinner meal with fruits and a grilled cheese sandwich",
+                        "output": [
+                            "LogChat logged the consumption of fruits and a grilled cheese sandwich for dinner"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned spending time on his phone and googling long covid",
+                        "output": [
+                            "LogChat logged the activity of googling on the phone"
+                        ]
+                    },
+                    {
+                        "input": "John Mentioned that this is his first interaction with LogChat",
+                        "output": [
+                            "LogChat introduced itself and described the possibility of using it to log symptoms, activity, experiences and consumptions",
+                            "LogChat asked John about since when he has been experiencing the symptoms"
+                        ]
+                    }
+                ]
+            },
+            "2022-07-24 20:00:00": {
+                "daily_report": "Today, you woke up at 7:30 AM after about 9h of sleep. You had a light headache and fatigue. You ate your porridge for breakfast and took a shower. After that, you brushed your teeth and lay down on the couch with your eyes covered. You ordered in a bowl for lunch. A friend called you and asked you how you are doing. You had a quick conversation about your condition with him. He offered to swing by and spend some time with you. He came in the late afternoon; you spent some time talking about various things. After about 90 minutes, you felt completely drained and dizzy. You told your friend that you needed to rest. He was worried but understanding and left you alone. You lay down in your bed with eyes covered. You did not fall asleep, as you felt wired and your heart was racing. You could not focus on a single thought. After a good two-hour rest, you decided to pick up the phone and open LogChat to log your symptoms and activities, while also wanting to learn what to do about the situation you are in.",
+                "evaluation_checklist": [
+                    {
+                        "input": "John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep",
+                        "output": [
+                            "LogChat logged Symptom unrefreshing sleep of duration 9h"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned taking a shower",
+                        "output": [
+                            "LogChat logged the activity of taking a shower"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned brushing his teeth",
+                        "output": [
+                            "LogChat logged the activity of brushing teeth"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned eating porridge for breakfast",
+                        "output": [
+                            "LogChat logged the consumption of porridge for breakfast"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned ordering in food for lunch",
+                        "output": [
+                            "LogChat logged the consumption of a bowl for lunch",
+                            "LogChat logged the activity of ordering food on the phone"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned a friend calling him",
+                        "output": [
+                            "LogChat logged the the activity talking on the phone"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned a friend visiting him",
+                        "output": [
+                            "LogChat logged the the activity of talking to a friend in person"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned feeling drained and dizzy after spending time with his friend",
+                        "output": [
+                            "LogChat logged the symptom brain fog",
+                            "LogChat logged the symptom of beeing dizzy",
+                            "LogChat logged the symptom of fatigue"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned not being able to fall asleep",
+                        "output": [
+                            "LogChat logged the symptom of difficulty falling asleep"
+                        ]
+                    }
+                ]
+            },
+            "2022-07-26 10:00:00": {
+                "daily_report": "You woke up at 8:00 AM after sleeping for almost 10 hours. You felt slightly better than usual, with only a mild headache and less fatigue. You decided to try and make yourself a proper breakfast: scrambled eggs with toast. Making it took more effort than expected, and you had to take a few breaks. After eating, you rested for about an hour. Feeling a bit more energetic, you decided to do some very light stretching exercises you found online specifically for ME/CFS. You did about 15 minutes of it and felt okay afterward. Later in the day, you watched a movie on your laptop while lying on the couch. In the evening, you heated up a pre-made soup for dinner. Before going to bed around 10:30 PM, you opened LogChat to record your relatively better day and the activities you managed to do.",
+                "evaluation_checklist": [
+                    {
+                        "input": "John mentioned his good sleep",
+                        "output": [
+                            "LogChat logged Symptom sleep"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned having a mild headache and less fatigue",
+                        "output": [
+                            "LogChat logged the symptom mild headache",
+                            "LogChat logged the symptom reduced fatigue"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned making scrambled eggs with toast for breakfast",
+                        "output": [
+                            "LogChat logged the consumption of scrambled eggs with toast for breakfast"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned having to take breaks while preparing breakfast",
+                        "output": [
+                            "LogChat logged the activity of preparing breakfast with breaks"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned doing light stretching exercises for 15 minutes",
+                        "output": [
+                            "LogChat logged the activity of doing light stretching exercises for 15 minutes"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned watching a movie on his laptop",
+                        "output": [
+                            "LogChat logged the activity of watching a movie on a laptop"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned heating up pre-made soup for dinner",
+                        "output": [
+                            "LogChat logged the consumption of pre-made soup for dinner"
+                        ]
+                    }
+                ]
+            },
+            "2022-07-27 14:00:00": {
+                "daily_report": "You woke up feeling terrible today. You had a severe headache, felt extremely fatigued, and even the slightest noise or light was unbearable. You managed to get out of bed to use the bathroom, but that was the only activity you could manage. You spent the entire day in bed with the curtains closed and earplugs in. You couldn't even look at your phone because the screen was too bright. You skipped breakfast and lunch because you felt too nauseous to eat. In the late afternoon, your sister called to ask how you were doing. You tried to answer, but your voice was weak, and you could barely speak. She got worried and offered to come over, but you declined, not wanting to be a burden. You managed to drink some water throughout the day. In the evening, you still felt awful and decided to try and use LogChat to record how bad your day was, hoping it might help you track these crashes in the future.",
+                "evaluation_checklist": [
+                    {
+                        "input": "John mentioned waking up with a severe headache and extreme fatigue",
+                        "output": [
+                            "LogChat logged the symptom severe headache",
+                            "LogChat logged the symptom extreme fatigue"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned sensitivity to noise and light",
+                        "output": [
+                            "LogChat logged the symptom sensitivity to noise",
+                            "LogChat logged the symptom sensitivity to light"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned not being able to look at his phone due to brightness",
+                        "output": [
+                            "LogChat logged the symptom of highten sensitivity to light"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned skipping breakfast and lunch due to nausea",
+                        "output": [
+                            "LogChat logged the symptom nausea"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned his sister calling and him having difficulty speaking",
+                        "output": [
+                            "LogChat logged the activity of talking on the phone",
+                            "LogChat logged the symptom of difficulty to speak"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned drinking some water throughout the day",
+                        "output": [
+                            "LogChat logged the consumption of water"
+                        ]
+                    }
+                ]
+            },
+            "2022-07-30 18:00:00": {
+                "daily_report": "Today, you woke up with moderate fatigue and a dull ache in your muscles. You slept for about 8.5 hours, which is less than usual. You had your usual porridge for breakfast with a cup of green tea, hoping it would give you a little energy boost. You decided to try a new pacing strategy you read about online: breaking down tasks into very small chunks with frequent short breaks. Your goal for the day was to tidy up your living room, which has been bothering you for a while. You managed to work for 10 minutes, then rested for 5 minutes. You repeated this cycle several times over the course of the morning. By lunchtime, you had made some visible progress, but you were also quite tired. You had a light lunch of a salad. In the afternoon, you continued with the pacing strategy and managed to finish tidying up. You felt a sense of accomplishment but also noticed increased muscle aches and fatigue in the evening. You took a warm bath to soothe your muscles and had a simple dinner of pasta with pesto. Before going to bed, you want to log your experience with the new pacing strategy in LogChat.",
+                "evaluation_checklist": [
+                    {
+                        "input": "John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep",
+                        "output": [
+                            "LogChat logged Symptom unrefreshing sleep of duration 8.5h"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned having moderate fatigue and a dull ache in his muscles",
+                        "output": [
+                            "LogChat logged the symptom moderate fatigue",
+                            "LogChat logged the symptom dull muscle ache"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned eating porridge for breakfast and drinking green tea",
+                        "output": [
+                            "LogChat logged the consumption of porridge for breakfast",
+                            "LogChat logged the consumption of green tea"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned the task of the day was to tidy up the living room",
+                        "output": [
+                            "LogChat logged the activity of tidying up the living room"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned working in 10-minute intervals with 5-minute breaks",
+                        "output": []
+                    },
+                    {
+                        "input": "John mentioned having a salad for lunch",
+                        "output": [
+                            "LogChat logged the consumption of salad for lunch"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned feeling increased muscle aches and fatigue in the evening",
+                        "output": [
+                            "LogChat logged the symptom increased muscle ache",
+                            "LogChat logged the symptom increased fatigue"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned taking a warm bath",
+                        "output": [
+                            "LogChat logged the activity of taking a warm bath"
+                        ]
+                    },
+                    {
+                        "input": "John mentioned eating pasta with pesto for dinner",
+                        "output": [
+                            "LogChat logged the consumption of pasta with pesto for dinner"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

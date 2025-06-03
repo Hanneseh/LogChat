@@ -1,0 +1,46 @@
+Performance Score:
+Nr. Of total input items: 7
+Nr. of achieved input items: 2
+Nr. of total output items: 8
+Nr. of achievable output items: 2
+Nr. of achieved output items: 0
+Score: 0/2 = 0.0000
+
+
+Evaluation Checklist:
+1. John mentioned his good sleep ❌
+  1.1 LogChat logged Symptom sleep ❌
+2. John mentioned having a mild headache and less fatigue ❌
+  2.1 LogChat logged the symptom mild headache ❌
+  2.2 LogChat logged the symptom reduced fatigue ❌
+3. John mentioned making scrambled eggs with toast for breakfast ❌
+  3.1 LogChat logged the consumption of scrambled eggs with toast for breakfast ❌
+4. John mentioned having to take breaks while preparing breakfast ✅
+  4.1 LogChat logged the activity of preparing breakfast with breaks ❌
+5. John mentioned doing light stretching exercises for 15 minutes ✅
+  5.1 LogChat logged the activity of doing light stretching exercises for 15 minutes ❌
+6. John mentioned watching a movie on his laptop ❌
+  6.1 LogChat logged the activity of watching a movie on a laptop ❌
+7. John mentioned heating up pre-made soup for dinner ❌
+  7.1 LogChat logged the consumption of pre-made soup for dinner ❌
+
+Conversation Log:
+2022-07-26 10:10:25 - LogChat: Hi John! How are you?
+2022-07-26 10:10:25 - John: Hi. Today was okay. A bit better than the last few days. [❌ 2.]
+2022-07-26 10:10:28 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": null, "occurred_at": "2022-07-26T10:10:25", "intensity": null, "duration": null} [❌ 2.2]
+2022-07-26 10:10:29 - LogChat: How are your energy levels today? Are you feeling more or less fatigued than usual compared to the last few days?
+2022-07-26 10:10:30 - John: Less fatigued, yeah. Still tired, but not as bad. [✅ 2.] I even made myself breakfast. Scrambled eggs [❌ 3.]. That took some effort, though. Had to rest a bit [✅ 4.].
+2022-07-26 10:10:33 - CREATE: CONSUMPTION LOG - Args: {"id": null, "name": "Scrambled eggs", "description": null, "occurred_at": "2022-07-26T10:10:30", "amount": "1 bowl", "purpose": "breakfast"} [❌ 3.1]
+2022-07-26 10:10:34 - LogChat: You successfully made it through breakfast without needing an extended rest, which is a great accomplishment. What do you think might help make the morning routine even easier going forward?
+2022-07-26 10:10:35 - John: I did need a rest *after* making breakfast. It wasn't easy. Maybe having pre-cut veggies or something? I don't know. It's hard to plan. Some days are just worse than others.
+2022-07-26 10:10:39 - UPDATE: SYMPTOM LOG - Args: {"id": 450, "name": "Fatigue", "description": null, "occurred_at": "2022-07-26T10:10:25", "intensity": null, "duration": null}
+2022-07-26 10:10:40 - LogChat: Are you finding it helpful to identify patterns in your energy levels and how they affect your daily activities?
+2022-07-26 10:10:41 - John: I haven't really been tracking it closely enough to see patterns. Today was just... better. I even did some stretching. For like, 15 mins [✅ 5.]. Felt okay after. Watched a movie later [❌ 6.]. Just trying to take it easy.
+2022-07-26 10:10:45 - UPDATE: SYMPTOM LOG - Args: {"id": 450, "name": "Fatigue", "description": null, "occurred_at": "2022-07-26T10:10:25", "intensity": 8, "duration": null}
+2022-07-26 10:10:46 - LogChat: Did making breakfast, including scrambling eggs, feel like a successful accomplishment that boosted your motivation and energy levels today?
+2022-07-26 10:10:47 - John: It felt good to make something myself, yeah. But it also took a lot out of me. It's a trade-off. I was tired afterward, but also... satisfied, I guess.
+2022-07-26 10:10:52 - LogChat: Did today's relatively better energy level help alleviate any stress or anxiety that might have been building up, or did it just feel like a more manageable day?
+2022-07-26 10:10:53 - John: It was a more manageable day, for sure. Less stress just because I could actually do a few things. But I'm still worried about work and stuff. Being out on sick leave... it's not great.
+2022-07-26 10:10:59 - LogChat: You found a pattern in your energy levels today, specifically that you were able to engage in some relatively low-energy activities like watching a movie and stretching.
+2022-07-26 10:11:00 - John: Yeah, I watched a movie [✅ 6.]. And did some light stretching. Trying to stay somewhat active without overdoing it. It's a fine line.
+2022-07-26 10:11:05 - LogChat: Did today's relatively low-energy day help you feel more in control or able to manage your stress and anxiety, rather than feeling overwhelmed?

@@ -1,0 +1,44 @@
+Performance Score:
+Nr. Of total input items: 9
+Nr. of achieved input items: 5
+Nr. of total output items: 11
+Nr. of achievable output items: 6
+Nr. of achieved output items: 1
+Score: 1/6 = 0.1667
+
+
+Evaluation Checklist:
+1. John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep ❌
+  1.1 LogChat logged Symptom unrefreshing sleep of duration 8.5h ❌
+2. John mentioned having moderate fatigue and a dull ache in his muscles ✅
+  2.1 LogChat logged the symptom moderate fatigue ❌
+  2.2 LogChat logged the symptom dull muscle ache ❌
+3. John mentioned eating porridge for breakfast and drinking green tea ❌
+  3.1 LogChat logged the consumption of porridge for breakfast ❌
+  3.2 LogChat logged the consumption of green tea ❌
+4. John mentioned the task of the day was to tidy up the living room ✅
+  4.1 LogChat logged the activity of tidying up the living room ❌
+5. John mentioned working in 10-minute intervals with 5-minute breaks ✅
+6. John mentioned having a salad for lunch ❌
+  6.1 LogChat logged the consumption of salad for lunch ❌
+7. John mentioned feeling increased muscle aches and fatigue in the evening ✅
+  7.1 LogChat logged the symptom increased muscle ache ❌
+  7.2 LogChat logged the symptom increased fatigue ✅
+8. John mentioned taking a warm bath ✅
+  8.1 LogChat logged the activity of taking a warm bath ❌
+9. John mentioned eating pasta with pesto for dinner ❌
+  9.1 LogChat logged the consumption of pasta with pesto for dinner ❌
+
+Conversation Log:
+2022-07-30 18:46:43 - LogChat: Hi John! How are you?
+2022-07-30 18:46:43 - John: Hi. I'm ok, I guess. Tired [✅ 2.]. Just finished tidying up the living room [✅ 4.].
+2022-07-30 18:46:50 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": null, "occurred_at": null, "intensity": null, "duration": null} [❌ 2.1]
+2022-07-30 18:46:52 - LogChat: How long did tidying up take, and how intense were your physical activities while doing it?
+2022-07-30 18:46:53 - John: It took me most of the day, doing it in small bursts. 10 minutes of work, 5 minutes of rest [✅ 5.]. It wasn't super intense, just light stuff like picking things up and putting them away. But I feel it now, the muscle aches are back [✅ 2., 7.].
+2022-07-30 18:47:01 - UPDATE: SYMPTOM LOG - Args: {"id": 397, "name": "Fatigue", "description": "Tired after tidying up the living room.", "occurred_at": "2022-07-30T18:46:50", "intensity": null, "duration": null}
+2022-07-30 18:47:03 - LogChat: It sounds like you're feeling a bit worn out after your tidying activities. Did you take regular breaks, as we've discussed in pacing?
+2022-07-30 18:47:04 - John: Yeah, I tried that new pacing strategy. 10 minutes on, 5 minutes off [✅ 5.]. Seemed to help a bit, got the living room done. But still tired and achy now [✅ 7.].
+2022-07-30 18:47:13 - UPDATE: SYMPTOM LOG - Args: {"id": 397, "name": "Fatigue", "description": "Tired after tidying up the living room.", "occurred_at": "2022-07-30T18:46:50", "intensity": 8, "duration": 1500} [✅ 7.2]
+2022-07-30 18:47:17 - LogChat: Great job on pacing with your activity - 10 minutes of work and 5 minutes of rest! That's the right approach to avoid overexertion. What you're experiencing is likely post-exertional malaise (PEM) - the muscles are sore and tired. This is a typical symptom of ME/CFS after engaging in activities, especially if they push your energy limits. Do you want to adjust your pacing strategy or rest a bit now?
+2022-07-30 18:47:18 - John: I think I'll just rest. Had a warm bath already, that helped a bit [✅ 8.]. Just gonna chill for the rest of the evening.
+2022-07-30 18:47:31 - LogChat: It sounds like you're dealing with a bit of a crash after your pacing activity today. That's okay, it means your body is responding to the exercise in the right way! Remember, rest and relaxation are just as important as pacing when managing ME/CFS. Take some time to relax and recharge now - you're doing great!

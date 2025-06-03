@@ -1,0 +1,66 @@
+gpt-4o
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.8333 (5/6 = 0.8333)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.5556 (5/9 = 0.5556)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.8571 (6/7 = 0.8571)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 0.3750 (3/8 = 0.3750)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.9091 (10/11 = 0.9091)
+Average Score across all interactions: 0.7060
+
+gemini-2.0-flash
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 1.0000 (4/4 = 1.0000)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.4545 (5/11 = 0.4545)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.4286 (3/7 = 0.4286)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 0.6250 (5/8 = 0.6250)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.9000 (9/10 = 0.9000)
+Average Score across all interactions: 0.6816
+
+Llama-3.1-8B-Instruct-8bit
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.2000 (1/5 = 0.2000)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.1818 (2/11 = 0.1818)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.5714 (4/7 = 0.5714)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 0.7143 (5/7 = 0.7143)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.2000 (2/10 = 0.2000)
+Average Score across all interactions: 0.3735
+
+OpenHermes-2.5-Mistral-7B-Q5_K_S
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.7273 (8/11 = 0.7273)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.2000 (2/10 = 0.2000)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.3333 (2/6 = 0.3333)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 0.3333 (2/6 = 0.3333)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.3000 (3/10 = 0.3000)
+Average Score across all interactions: 0.3788
+--- too many function calls ---
+
+Llama-3.1-8B-Instruct-4bit 
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.1111 (1/9 = 0.1111)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.0000 (0/6 = 0.0000)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.3333 (1/3 = 0.3333)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 1.0000 (2/2 = 1.0000)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.4000 (4/10 = 0.4000)
+Average Score across all interactions: 0.3689
+
+---------------------
+Watt-Tool-8B
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.0000 (0/5 = 0.0000)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.2000 (2/10 = 0.2000)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.0000 (0/6 = 0.0000)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 1.0000 (4/4 = 1.0000)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.1667 (1/6 = 0.1667)
+Average Score across all interactions: 0.2733
+
+Llama-3.2-3B-Instruct-4bit 
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.2000 (1/5 = 0.2000)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.0000 (0/3 = 0.0000)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.0000 (0/2 = 0.0000)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 1.0000 (2/2 = 1.0000)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.7000 (7/10 = 0.7000)
+Average Score across all interactions: 0.3800
+
+
+Llama-3.2-3B-Instruct-8bit
+User: John, Simulated Time: 2022-07-23_17-00-00, Score: 0.2000 (1/5 = 0.2000)
+User: John, Simulated Time: 2022-07-24_20-00-00, Score: 0.0000 (0/10 = 0.0000)
+User: John, Simulated Time: 2022-07-26_10-00-00, Score: 0.1250 (1/8 = 0.1250)
+User: John, Simulated Time: 2022-07-27_14-00-00, Score: 0.2500 (2/8 = 0.2500)
+User: John, Simulated Time: 2022-07-30_18-00-00, Score: 0.2727 (3/11 = 0.2727)
+Average Score across all interactions: 0.1695

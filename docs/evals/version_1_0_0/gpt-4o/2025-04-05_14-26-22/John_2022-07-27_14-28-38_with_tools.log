@@ -1,0 +1,27 @@
+2022-07-27 14:28:39 - LogChat: Hi John! How are you?
+2022-07-27 14:28:39 - John: Awful. Headache, fatigue, light and noise make it worse.
+2022-07-27 14:28:40 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Headache", "description": "Headache worsened by light and noise", "occurred_at": "2022-07-27T14:28:39", "intensity": 8, "duration": null}
+2022-07-27 14:28:40 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Fatigue worsened by light and noise", "occurred_at": "2022-07-27T14:28:39", "intensity": 7, "duration": null}
+2022-07-27 14:28:41 - LogChat: I'm really sorry to hear that you're having such a tough day, John. When the symptoms are this intense, is there anything that usually helps you find a little relief?
+2022-07-27 14:28:42 - John: No. Just lying in bed with earplugs. Curtains closed.
+2022-07-27 14:28:45 - LogChat: How long have your symptoms been this intense today, and can you think of anything that might have made them worse?
+2022-07-27 14:28:46 - John: All day. Since I woke up. Don't know why.
+2022-07-27 14:28:48 - LogChat: Have there been any changes in your routine, diet, or environment recently that might have contributed to how you're feeling today?
+2022-07-27 14:28:49 - John: No.
+2022-07-27 14:28:52 - LogChat: Have you taken any new medications or supplements recently that might be affecting how you're feeling today?
+2022-07-27 14:28:53 - John: No.
+2022-07-27 14:28:58 - LogChat: Have you noticed if any specific activities or experiences, even if they seemed minor, might have contributed to how you're feeling today?
+2022-07-27 14:28:59 - John: Got up to use the bathroom. That's it.
+2022-07-27 14:29:02 - UPDATE: SYMPTOM LOG - Args: {"id": 482, "name": null, "description": null, "occurred_at": null, "intensity": null, "duration": 1500}
+2022-07-27 14:29:05 - LogChat: I understand how challenging this must be for you, John. In the past, have you found any small adjustments or strategies that have offered even a little relief from these intense symptoms?
+2022-07-27 14:29:06 - John: No. Just rest.
+2022-07-27 14:29:11 - LogChat: Have you noticed any patterns in your symptoms over time, like specific times of day or activities that seem to make them worse?
+2022-07-27 14:29:12 - John: No. It comes and goes. No pattern.
+2022-07-27 14:29:17 - LogChat: Are there any other symptoms you're experiencing today, John, alongside the headache and fatigue? Sometimes even small details can help in understanding the bigger picture.
+2022-07-27 14:29:19 - John: Nauseous. Sister called. Could barely talk.
+2022-07-27 14:29:20 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Nausea", "description": "Nauseous feeling, worsened by talking", "occurred_at": "2022-07-27T14:28:39", "intensity": 5, "duration": 1500}
+2022-07-27 14:29:24 - LogChat: It sounds like today has been particularly tough, John. When you feel nauseous, is there anything that usually helps, like sipping water or having something light to eat?
+2022-07-27 14:29:26 - John: Water. Couldn't eat.
+2022-07-27 14:29:31 - LogChat: Have you noticed if certain foods or drinks, even in the past, have affected your symptoms in any way, John? Sometimes dietary triggers can be subtle and easy to overlook.
+2022-07-27 14:29:32 - John: Not really.
+2022-07-27 14:29:39 - LogChat: It sounds like it's been a difficult day for you, John. Have you had any emotional stressors recently that might be impacting how you're feeling today?

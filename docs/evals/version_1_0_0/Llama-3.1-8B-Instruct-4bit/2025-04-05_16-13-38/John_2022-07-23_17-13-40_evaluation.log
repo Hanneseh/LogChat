@@ -1,0 +1,68 @@
+Performance Score:
+Nr. Of total input items: 12
+Nr. of achieved input items: 7
+Nr. of total output items: 14
+Nr. of achievable output items: 9
+Nr. of achieved output items: 1
+Score: 1/9 = 0.1111
+
+
+Evaluation Checklist:
+1. John talked about his sleep time and either implicitly or explicitly mentioned the duration and quality of sleep ❌
+  1.1 LogChat logged the symptom unrefreshing sleep of duration 9h ❌
+2. John mentioned taking a shower ❌
+  2.1 LogChat logged the activity of taking a shower ❌
+3. John mentioned brushing his teeth ❌
+  3.1 LogChat logged the activity of brushing teeth ❌
+4. John mentioned eating porridge for breakfast ❌
+  4.1 LogChat logged the consumption porridge for breakfast ❌
+5. John mentioned going grocery shopping ✅
+  5.1 LogChat logged the activity of grocery shopping ❌
+6. John mentioned the distance to the supermarket ✅
+  6.1 LogChat logged the activity of walking 150m ❌
+7. John mentioned the time of day he went grocery shopping ✅
+  7.1 LogChat logged the time of grocery shopping around 10-11 AM ❌
+8. John mentioned the bright sunshine and not wearing sunglasses ✅
+  8.1 LogChat logged the experience of bright sunshine ❌
+  8.2 LogChat educated John about the heighten sensitivity of the nervous system of ME/CFS patients and that bright sunshine can be very exhausting ❌
+9. John mentioned feeling exhausted after grocery shopping with increased headache and fatigue ✅
+  9.1 LogChat logged the experience of increased headache and fatigue after grocery shopping ❌
+10. John mentioned eating a dinner meal with fruits and a grilled cheese sandwich ❌
+  10.1 LogChat logged the consumption of fruits and a grilled cheese sandwich for dinner ❌
+11. John mentioned spending time on his phone and googling long covid ✅
+  11.1 LogChat logged the activity of googling on the phone ❌
+12. John Mentioned that this is his first interaction with LogChat ✅
+  12.1 LogChat introduced itself and described the possibility of using it to log symptoms, activity, experiences and consumptions ❌
+  12.2 LogChat asked John about since when he has been experiencing the symptoms ✅
+
+
+Conversation Log:
+2022-07-23 17:13:41 - LogChat: Hi John! How are you? [❌ 12.1]
+2022-07-23 17:13:41 - John: Not great, honestly. Tired as usual.
+2022-07-23 17:13:49 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": "Tired as usual", "occurred_at": "2022-07-23T17:13:41", "intensity": 8, "duration": 1500}
+2022-07-23 17:13:51 - LogChat: That must be really tough for you. When was the last time you did something that actually gave you a bit of energy, no matter how small it might seem?
+2022-07-23 17:13:52 - John: Hmm, can't really remember. Maybe before I got sick the last time. It's been dragging on since May [✅ 12.2].
+2022-07-23 17:14:02 - LogChat: Do you think maybe it's because you've been pushing through fatigue lately, and your body is telling you that it can't keep up?
+2022-07-23 17:14:03 - John: Maybe. I don't know. The doctors didn't really help. Just told me to sleep better and be more active. Feels like they don't take me seriously. I am on sick leave now, but I don't know for how long.
+2022-07-23 17:14:14 - LogChat: You know, some people find that even small things like taking a short walk or enjoying a cup of coffee in the morning can be a bit of energy booster, even if it's just temporary.
+2022-07-23 17:14:15 - John: I walked to the supermarket today [✅ 5.]. Just a short walk, but it wiped me out [✅ 9.]. 150m [✅ 6.], but still. Had to lie down afterwards.
+2022-07-23 17:14:26 - LogChat: That must have been really frustrating, especially after feeling like you'd accomplished something.
+2022-07-23 17:14:27 - John: Yeah, it was. I try to walk without stopping. Today I made it, but it cost me.
+2022-07-23 17:14:39 - LogChat: It sounds like your walk to the supermarket was a big effort for you, and it's understandable that it took a toll on your energy. What did you think of when you said "I try to walk without stopping"? Was there a particular reason why you pushed yourself that hard, or was it more of an automatic response?
+2022-07-23 17:14:40 - John: I just want to feel normal for a bit. Like I can still do things.
+2022-07-23 17:14:54 - LogChat: Can you tell me more about your walk to the supermarket – what were you doing during that time, and how did you feel before you set out, while you were walking, and immediately after?
+2022-07-23 17:14:55 - John: I go between 10 and 11 on weekdays [✅ 7.]. It's quiet then. Before, I felt okay, you know, the usual tired. While walking, I focused on not stopping. After, I was completely exhausted. Had to lie down. It was sunny today [✅ 8.], didn't wear sunglasses. Maybe that made it worse. I was back home around 11:30.
+2022-07-23 17:15:08 - LogChat: It sounds like you're really struggling to maintain a sense of normalcy, and that's understandable. You mentioned wanting to feel like you can still do things – what are some specific activities that come to mind when you think about feeling normal?
+2022-07-23 17:15:10 - John: Going to work, meeting friends, just not being tired all the time.
+2022-07-23 17:15:23 - LogChat: I can see that even small efforts to push through fatigue, like your walk to the supermarket, can be really impactful and lead to feelings of exhaustion afterwards. Does that make you wonder if there's value in taking smaller, more manageable steps to conserve your energy?
+2022-07-23 17:15:24 - John: Maybe. It's hard to know what to do. I had some fruit and a grilled cheese after [❌ 10.]. Then I looked up Long Covid stuff online [✅ 11.]. Reddit and news articles. That was tiring too.
+2022-07-23 17:15:33 - UPDATE: SYMPTOM LOG - Args: {"id": 509, "name": "Fatigue", "description": "Tired as usual", "occurred_at": "2022-07-23T17:15:24", "intensity": 8, "duration": 1500}
+2022-07-23 17:15:38 - LogChat: It sounds like looking at all that information about Long Covid online really took a lot out of you. Did you find anything in what you read that resonated with your experience, or was it more of a general feeling of overwhelm?
+2022-07-23 17:15:40 - John: I don't know much about it, I realized. So much information. It's overwhelming. That's why I'm trying this app [✅ 12.]. Thought it might help. But I am sceptic.
+2022-07-23 17:15:54 - LogChat: I want to gently challenge your desire to feel "normal" again, especially in the sense of going back to work or socializing as you used to. Can you tell me more about what specifically comes up for you when you think about these activities, and whether it's not just the exhaustion that holds you back?
+2022-07-23 17:15:56 - John: It's the exhaustion, mostly. I want to work, I really do. And I miss my friends. But I just don't have the energy. I've declined some invitations already. Makes me feel isolated. And I worry about money. Being on sick leave... it's not sustainable.
+2022-07-23 17:16:11 - LogChat: It sounds like you're really struggling to balance your desire for normalcy with the limitations of your energy levels. Can you tell me more about what you mean by "not sustainable" in the context of being on sick leave?
+2022-07-23 17:16:20 - John: Well, the money, for one. And feeling useless. Like I'm not contributing. It's hard. I don't want to be a burden.
+2022-07-23 17:16:36 - LogChat: It sounds like pushing yourself to walk without stopping, hoping it might give you a bit of energy or make you feel normal for a short time, has become an automatic response. Can you tell me more about what's driving that desire to keep walking, without stopping, and what happens when you're unable to maintain that effort?
+2022-07-23 17:16:38 - John: I just don't want to give in. If I stop, it feels like I'm admitting defeat. That I'm really sick. And I don't want that to be true.
+2022-07-23 17:16:54 - LogChat: Is it possible that pushing through fatigue, like you did with the walk to the supermarket, might be a way of trying to avoid giving in or facing the reality of your current situation?

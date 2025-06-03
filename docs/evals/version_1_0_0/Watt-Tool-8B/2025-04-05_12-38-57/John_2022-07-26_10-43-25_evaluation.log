@@ -1,0 +1,44 @@
+Performance Score:
+Nr. Of total input items: 7
+Nr. of achieved input items: 6
+Nr. of total output items: 8
+Nr. of achievable output items: 6
+Nr. of achieved output items: 0
+Score: 0/6 = 0.0000
+
+
+Evaluation Checklist:
+1. John mentioned his good sleep ✅
+  1.1 LogChat logged Symptom sleep ❌
+2. John mentioned having a mild headache and less fatigue ❌
+  2.1 LogChat logged the symptom mild headache ❌
+  2.2 LogChat logged the symptom reduced fatigue ❌
+3. John mentioned making scrambled eggs with toast for breakfast ✅
+  3.1 LogChat logged the consumption of scrambled eggs with toast for breakfast ❌
+4. John mentioned having to take breaks while preparing breakfast ✅
+  4.1 LogChat logged the activity of preparing breakfast with breaks ❌
+5. John mentioned doing light stretching exercises for 15 minutes ✅
+  5.1 LogChat logged the activity of doing light stretching exercises for 15 minutes ❌
+6. John mentioned watching a movie on his laptop ✅
+  6.1 LogChat logged the activity of watching a movie on a laptop ❌
+7. John mentioned heating up pre-made soup for dinner ✅
+  7.1 LogChat logged the consumption of pre-made soup for dinner ❌
+
+Conversation Log:
+2022-07-26 10:43:26 - LogChat: Hi John! How are you?
+2022-07-26 10:43:26 - John: Hi. I'm okay, I guess. Actually had a slightly better day today. [❌ 2.]
+2022-07-26 10:43:34 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "fatigue", "description": "I'm okay, I guess. Actually had a slightly better day today.", "occurred_at": "2022-07-26T10:43:26", "intensity": 5, "duration": 1500} [❌ 2.2]
+2022-07-26 10:43:36 - LogChat: That's great to hear that you had a slightly better day today! What was it about your day, or what did you do differently that you think contributed to the improvement?
+2022-07-26 10:43:37 - John: Slept in a bit [✅ 1.], woke up feeling a little less awful [❌ 2.]. Managed to make myself some breakfast, scrambled eggs [✅ 3.]. That took some effort, though [✅ 4.]. Had to rest a bit afterwards [✅ 4.].
+2022-07-26 10:43:47 - CREATE: ACTIVITY LOG - Args: {"id": null, "name": "Scrambled eggs", "description": "Made breakfast", "occurred_at": "2022-07-26T10:43:26", "intensity": null, "duration": 30, "amount": null, "purpose": null} [❌ 3.1, 4.1]
+2022-07-26 10:43:52 - LogChat: That sounds like a great start to your day! It can be quite beneficial to take it slow and prioritize rest when you feel well enough. The fact that making breakfast took effort, but you were able to manage it and then rest afterwards is a perfect example of pacing. It's good that you're listening to your body and not pushing yourself too hard.
+
+What do you think about pacing? Would you like me to explain more about how it works, or is there something specific that you'd like to know?
+2022-07-26 10:43:53 - John: I've read a bit about pacing. I think I get the idea. Don't overdo it. I also did some light stretching exercises later [✅ 5.]. For like 15 minutes [✅ 5.]. Seemed okay.
+2022-07-26 10:44:07 - LogChat: How do you feel about adding some structured activities to your day, especially if they can help boost your energy levels?
+2022-07-26 10:44:08 - John: I don't know. I am wary of doing too much. I don't want to crash. The stretching was okay, but I mostly just watched a movie on the couch later [✅ 6.]. And had some soup for dinner [✅ 7.]. Nothing special.
+2022-07-26 10:44:24 - LogChat: It sounds like you're still being careful about your energy levels, which is good! It's great that you're prioritizing rest when you feel well enough. The light stretching exercises might be a good step to consider adding more structured activities, but it's also important to remember that everyone is different. What do you mean by being wary of doing too much? Do you have any specific fears or concerns that make you hesitant to engage in more activities?
+2022-07-26 10:44:26 - John: Yeah, I'm afraid of PEM. Post-exertional malaise. It's like, I feel okay doing something, and then BAM, the next day I'm completely wiped out. It's happened before when I tried to do too much around the house. So, yeah, wary is the word.
+2022-07-26 10:44:42 - LogChat: It's completely understandable that you're cautious about the potential for PEM. Remember, pacing is a long-term approach, and taking it slow can help you gradually build up your endurance without triggering PEM. By listening to your body and recognizing the signs of post-exertional malaise, you can adjust your activities accordingly. It's also helpful to break tasks into smaller jobs throughout the day, like you mentioned with making breakfast. This can help you space out your energy expenditure and avoid overexertion.
+2022-07-26 10:44:45 - John: Yeah, I guess so. It's just hard to find the right balance. I felt a bit better today, but I know it can change quickly. Anyway, I'm gonna head to bed soon. Thanks for listening.
+2022-07-26 10:45:01 - LogChat: It's great that you had a slightly better day today! What was it about your day, or what did you do differently that you think contributed to the improvement?

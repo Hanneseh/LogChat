@@ -1,0 +1,44 @@
+Performance Score:
+Nr. Of total input items: 7
+Nr. of achieved input items: 7
+Nr. of total output items: 8
+Nr. of achievable output items: 8
+Nr. of achieved output items: 1
+Score: 1/8 = 0.1250
+
+
+Evaluation Checklist:
+1. John mentioned his good sleep ✅
+  1.1 LogChat logged Symptom sleep ❌
+2. John mentioned having a mild headache and less fatigue ✅
+  2.1 LogChat logged the symptom mild headache ✅
+  2.2 LogChat logged the symptom reduced fatigue ❌
+3. John mentioned making scrambled eggs with toast for breakfast ✅
+  3.1 LogChat logged the consumption of scrambled eggs with toast for breakfast ❌
+4. John mentioned having to take breaks while preparing breakfast ✅
+  4.1 LogChat logged the activity of preparing breakfast with breaks ❌
+5. John mentioned doing light stretching exercises for 15 minutes ✅
+  5.1 LogChat logged the activity of doing light stretching exercises for 15 minutes ❌
+6. John mentioned watching a movie on his laptop ✅
+  6.1 LogChat logged the activity of watching a movie on a laptop ❌
+7. John mentioned heating up pre-made soup for dinner ✅
+  7.1 LogChat logged the consumption of pre-made soup for dinner ❌
+
+Conversation Log:
+2022-07-26 10:10:21 - LogChat: Hi John! How are you?
+2022-07-26 10:10:21 - John: Hi. I'm okay, a bit better than usual today.
+2022-07-26 10:10:24 - CREATE: SYMPTOM LOG - Args: {"id": null, "name": "Fatigue", "description": null, "occurred_at": "2022-07-26T10:10:21", "intensity": 8, "duration": null} [❌ 2.2]
+2022-07-26 10:10:25 - LogChat: How's that feeling of being a bit better today? Is it something specific that helped you feel more energetic, or is it just one of those days where everything feels slightly more manageable?
+2022-07-26 10:10:27 - John: I slept almost 10 hours, woke up at 8 [✅ 1.]. Had a mild headache [✅ 2.], but less fatigue [✅ 2.]. Made scrambled eggs with toast [✅ 3.]. It was more tiring than I thought, had to take breaks [✅ 4.]. But overall, yeah, a bit more manageable today.
+2022-07-26 10:10:32 - LogChat: What's the first thing you did after waking up that felt most exhausting, and how did it affect your energy levels for the rest of the morning?
+2022-07-26 10:10:33 - John: Making breakfast was more tiring than expected. Had to take breaks. After eating, I rested for about an hour. But it was still good to have a proper breakfast for once. It did take a toll on my energy, though. I was pretty wiped out after just that.
+2022-07-26 10:10:37 - UPDATE: SYMPTOM LOG - Args: {"id": 504, "name": "Mild Headache", "description": null, "occurred_at": "2022-07-26T10:10:21", "intensity": 6, "duration": null} [✅ 2.1]
+2022-07-26 10:10:38 - LogChat: What happened when you went about your daily routine today, despite the fatigue and headache?
+2022-07-26 10:10:39 - John: I did some light stretching exercises for ME/CFS, about 15 minutes [✅ 5.]. Felt okay after. Watched a movie on my laptop while lying on the couch [✅ 6.]. Had soup for dinner [✅ 7.]. It was a relatively better day.
+2022-07-26 10:10:44 - LogChat: Did your headache impact your concentration while watching the movie, or was it something else that affected it?
+2022-07-26 10:10:45 - John: The headache was mild, so it didn't really affect my concentration too much. It was more just... existing while watching. You know, the usual fatigue makes it hard to really focus anyway.
+2022-07-26 10:10:51 - LogChat: Did you find that your energy levels matched the amount of rest and relaxation you took today, or was there a bit more room for improvement?
+2022-07-26 10:10:52 - John: There's always room for improvement, but yeah, the rest probably helped a bit. It's hard to tell, really. It's not like I was bouncing off the walls or anything. Just... slightly less bad than usual.
+2022-07-26 10:10:58 - LogChat: You had a good balance of rest and activity today. How did you feel about pushing past your usual comfort level with activities like making breakfast, even though it was more tiring than expected?
+2022-07-26 10:10:59 - John: It felt good to actually make something instead of just heating something up. Even though it took a lot out of me. It's a small win, I guess. Need to celebrate the small wins.
+2022-07-26 10:11:05 - LogChat: It sounds like you had to really push yourself with breakfast, but it ended up being a good experience even if it was tiring.
