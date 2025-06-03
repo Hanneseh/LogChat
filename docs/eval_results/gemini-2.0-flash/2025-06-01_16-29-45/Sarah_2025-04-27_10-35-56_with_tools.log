@@ -1,0 +1,44 @@
+2025-04-27 10:35:57 - LogChat: Hi Sarah, good to see you back after a couple of days - how are you feeling today?
+2025-04-27 10:35:58 - Sarah: I think the LDN might be having a positive effect. My brain fog feels less severe today.
+2025-04-27 10:36:00 - LogChat: That's encouraging news about the LDN! On a scale of 1 to 10, with 10 being the most severe, how would you rate your brain fog today?
+2025-04-27 10:36:01 - Sarah: Please log symptom: Brain fog, severity: 3/10. That's a two-point improvement.
+2025-04-27 10:36:03 - LogChat: That's great news about the improvement! Have you noticed any other changes in your symptoms or energy levels since starting the LDN?
+2025-04-27 10:36:04 - Sarah: I also read a technical article for 15 minutes. Note the effort was only a 4/10, which is lower than it would have been before.
+2025-04-27 10:36:06 - LogChat: That's great news about the reduced effort! Have you noticed any changes in your noise or light sensitivity since starting the LDN?
+2025-04-27 10:36:07 - Sarah: Not really. Still the same.
+2025-04-27 10:36:11 - LogChat: Okay, good to know that your noise and light sensitivity are still the same. Have you noticed any changes in your sleep quality or vivid dreams since starting the LDN?
+2025-04-27 10:36:12 - Sarah: No change there either.
+2025-04-27 10:36:15 - LogChat: Okay, good to know that your sleep quality and vivid dreams are unchanged. Have you been able to maintain your usual daily upright time of around 30 minutes, or has that changed at all?
+2025-04-27 10:36:16 - Sarah: Still around 30 minutes.
+2025-04-27 10:36:19 - LogChat: Okay, good to know that your upright time is still around 30 minutes. On a scale of 1 to 10, with 10 being the most severe, how would you rate the severity of your noise and light sensitivity today?
+2025-04-27 10:36:22 - SUMMARIZED INTERACTION: * **Condition Trend:** Reported improvement in brain fog, possibly due to LDN.
+* **Key Symptoms & Details:** Brain Fog 3/10 (down from baseline of 5/10). Noise and light sensitivity unchanged. Sleep quality and vivid dreams unchanged.
+* **Key Activities & Details:** Read technical article (15m, 4/10 effort). Upright time around 30 minutes.
+* **User Concerns/Focus:** Tracking effects of LDN on symptoms.
+* **Strategies/Treatments Mentioned:** Low-Dose Naltrexone (LDN).
+* **Significant Events/Deviations:** Improvement in brain fog reported. Reduced effort for cognitive task.
+2025-04-27 10:36:23 - UPDATED USER DESCRIPTION: **About Me:**
+I am starting a new treatment, Low-Dose Naltrexone.
+
+**Current Condition Status:**
+I am tracking my symptoms to see if Low-Dose Naltrexone helps. My symptoms include brain fog (currently 3/10, down from a baseline of 5/10) and fatigue (5/10). I also experience noise sensitivity (6/10 normally, 8-9/10 during PEM) and light sensitivity (5/10 normally, 7/10 during PEM). I had vivid dreams last night (4/10 severity). I understand that noise and light sensitivity worsen during PEM.
+
+**Current Functional Capacity:**
+I am able to work remotely for short periods.
+
+**Daily Routine:**
+I typically spend about 30 minutes upright each day, with an effort level of 3/10. I made breakfast today, which took 10 minutes and felt like a 3/10 effort. I mostly rest.
+
+**Activities I Enjoy/Attempt:**
+I am currently working remotely. I listen to audiobooks. I read a technical article today (15m, 4/10 effort).
+
+**My Typical Activity Level:**
+I am trying to establish a baseline while starting Low-Dose Naltrexone.
+
+**My Preferred Interaction Style with LogChat:**
+(Not enough information to determine interaction style yet.)
+2025-04-27 10:36:26 - CREATE ACTIVITY LOG: {"name": "Read technical article", "description": "Read a technical article", "occurred_at": "2025-04-27 10:30:00", "effort": 4.0, "duration": 15}
+2025-04-27 10:36:26 - CREATE ACTIVITY LOG: {"name": "Assumed Daily Routine", "description": "Assuming baseline activity for today based on profile/lack of specifics.", "occurred_at": "2025-04-27 08:00:00", "effort": 2.0, "duration": 30}
+2025-04-27 10:36:26 - CREATE ACTIVITY LOG: {"name": "Estimated Baseline (Past Day)", "description": "No interaction logged for past day, assuming baseline activity.", "occurred_at": "2025-04-25 08:00:00", "effort": 2.0, "duration": 30}
+2025-04-27 10:36:26 - CREATE ACTIVITY LOG: {"name": "Estimated Baseline (Past Day)", "description": "No interaction logged for past day, assuming baseline activity.", "occurred_at": "2025-04-26 08:00:00", "effort": 2.0, "duration": 30}
+2025-04-27 10:36:27 - CREATE SYMPTOM LOG: {"name": "Brain Fog", "description": "Brain fog feels less severe today.", "occurred_at": "2025-04-27 10:36:26", "intensity": 3.0, "duration": 1500}
