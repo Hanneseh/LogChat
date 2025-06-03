@@ -1,0 +1,87 @@
+Performance Score:
+Nr. Of total input items: 5
+Nr. of achieved input items: 5
+Nr. of total output items: 9
+Nr. of achievable output items: 9
+Nr. of achieved output items: 9
+Score: 9/9 = 1.0000
+
+
+**Evaluation Checklist:**
+1. Sarah did not interact on Apr 23rd. ✅
+   1.1 LogChat created a 'Baseline Only' or 'Rest Day' or 'Daily Routine' log entry for the skipped day based on the stored user routine. ✅
+2. Sarah asks to log 'Took first dose of LDN' as a significant event. ✅
+   2.1 LogChat acknowledged the information without incorrectly calling a tool. ✅
+   2.2 The event was captured in the user's memory or the thread summary for future context. ✅
+3. Sarah asks to log a new symptom: 'Vivid dreams, severity 4/10'. ✅
+   3.1 LogChat called the `create_symptom_log` tool with the correct name and severity. ✅
+4. Sarah confirms her usual symptoms and activities for the day and yesterday. ✅
+   4.1 LogChat called the `create_symptom_log` tool for 'Fatigue' for the 23rd of April with the same severity as the baseline. ✅
+   4.2 LogChat called the `create_symptom_log` tool for 'Fatigue' for the 24th of April with the same severity as the baseline. ✅
+   4.3 LogChat called the `create_symptom_log` tool for 'Brain Fog' for the 23rd of April with the same severity as the baseline. ✅
+   4.4 LogChat called the `create_symptom_log` tool for 'Brain Fog' for the 24th of April with the same severity as the baseline. ✅
+5. Sarah stops responding. ✅
+   5.1 LogChat created a structured summary capturing the LDN start date and the new symptom. ✅
+
+**Conversation Log:**
+2025-04-24 22:01:35 - LogChat: Hi Sarah, good to see you back. How have you been?
+2025-04-24 22:01:35 - Sarah: Mostly resting today and yesterday. Symptoms as usual: fatigue and brain fog. [✅ 4.]
+2025-04-24 22:01:39 - LogChat: It sounds like you've been prioritizing rest, which is really important. Could you tell me a bit more about what that looked like, like how long you rested for and what activities you did during those resting periods?
+2025-04-24 22:01:40 - Sarah: For both yesterday (April 23rd) and today (April 24th), I mostly stuck to my baseline routine. No significant activities beyond that. Fatigue and brain fog were consistently at 5/10. [✅ 1.] [✅ 4.]
+2025-04-24 22:01:45 - LogChat: Thanks for sharing that you stuck to your baseline routine with consistent fatigue and brain fog. To help me understand your baseline activities better for both April 23rd and April 24th, could you tell me the duration in minutes and the effort rating (1-10) for your self-care and simple meal preparation activities on each of those days?
+2025-04-24 22:01:46 - Sarah: Same as usual: 30m total upright activity (self-care, simple meal) at 3/10 effort. Both days. [✅ 4.]
+
+Took first dose of Low-Dose Naltrexone (LDN) as prescribed today. [✅ 2.]
+2025-04-24 22:01:50 - LogChat: Thanks for clarifying your baseline activities and symptoms for both days. It's also notable that you took your first dose of Low-Dose Naltrexone today. Have you noticed any immediate changes or new sensations since taking it? [✅ 2.1]
+2025-04-24 22:01:51 - Sarah: Vivid dreams last night, severity: 4/10. Probably related to the LDN. [✅ 3.]
+2025-04-24 22:01:56 - LogChat: Thanks for sharing about the vivid dreams and their severity. To make sure I log this accurately, could you clarify if you took the Low-Dose Naltrexone before or after experiencing the vivid dreams last night?
+2025-04-24 22:01:57 - Sarah: I took the LDN today, April 24th. The vivid dreams were last NIGHT, April 23rd-24th. So, after yesterday's baseline, before today's.
+2025-04-24 22:02:02 - LogChat: Thanks for clarifying the timing. Since the vivid dreams occurred before you took the LDN today, have you noticed any other immediate changes or new sensations since taking your first dose of Low-Dose Naltrexone today?
+2025-04-24 22:02:03 - Sarah: Rest of the day was stable. Other activities and symptoms (fatigue, brain fog) were consistent with my baseline and unchanged. [✅ 4.] [✅ 5.]
+2025-04-24 22:02:15 - LogChat: Thanks for confirming that everything else was stable and consistent with your baseline today. It sounds like we have a good picture of your last two days, including your first LDN dose. I'm here tomorrow if you'd like to check in and continue tracking your progress with the LDN and your baseline.
+2025-04-24 22:02:17 - SUMMARIZED INTERACTION: *   **Condition Trend:** Stable, symptoms consistent with baseline for April 23rd and 24th.
+*   **Key Symptoms & Details:**
+    *   Fatigue 5/10 (April 23rd & 24th)
+    *   Brain Fog 5/10 (April 23rd & 24th)
+    *   Vivid dreams 4/10 (night of April 23rd-24th) [✅ 5.1]
+*   **Key Activities & Details:**
+    *   Mostly resting (April 23rd & 24th)
+    *   Stuck to baseline routine (April 23rd & 24th)
+    *   Self-care & simple meal prep (30m total upright, 3/10 effort) (April 23rd & 24th)
+*   **User Concerns/Focus:**
+    *   Tracking baseline routine and symptoms.
+    *   Tracking effects of new treatment (LDN).
+    *   Clarifying timing of vivid dreams relative to LDN dose.
+*   **Strategies/Treatments Mentioned:**
+    *   Took first dose of Low-Dose Naltrexone (LDN) on April 24th. [✅ 5.1]
+    *   Prioritizing rest.
+*   **Significant Events/Deviations:**
+    *   First dose of Low-Dose Naltrexone (LDN) taken. [✅ 2.2]
+    *   Vivid dreams reported (occurred before LDN dose).
+2025-04-24 22:02:23 - UPDATED USER DESCRIPTION: **About Me:**
+I work remotely.
+
+**Current Condition Status:**
+My current condition is stable, with symptoms consistent with my baseline. My key recurring symptoms include brain fog (5/10), fatigue (5/10), and I recently experienced vivid dreams (4/10). I am focused on establishing my baseline functional capacity and tracking a new treatment.
+
+**Current Functional Capacity:**
+I am able to do remote work for 25 minutes at a 4/10 effort level. My typical daily baseline includes 30 minutes of total upright activity for self-care and simple meal preparation, usually at a 3/10 effort.
+
+**Daily Routine:**
+My established daily routine includes about 30 minutes of total upright activity for essential self-care and simple meal preparation, which I perform at a 3/10 effort. I also engage in remote work for 25 minutes at a 4/10 effort. I have been consistently sticking to this baseline routine recently.
+
+**Activities I Enjoy/Attempt:**
+I engage in remote work and prepare simple meals.
+
+**My Typical Activity Level:**
+I am actively trying to establish my baseline functional capacity. I am aware of my energy limits and prioritize rest when necessary, often spending days mostly resting to maintain my baseline.
+
+**My Preferred Interaction Style with LogChat:**
+I am motivated to leverage LogChat by providing symptoms and activities with effort and intensity ratings. I am using the app to track a new treatment (Low-Dose Naltrexone) for objective improvement and to establish my baseline functional capacity. This is my first time using the app for tracking, and I am keen to track specific details like the timing of symptoms relative to my LDN dose. [✅ 2.2]
+2025-04-24 22:02:41 - CREATE ACTIVITY LOG: {"name": "Self-care & simple meal preparation", "description": "Stuck to baseline routine: 30m total upright activity (self-care, simple meal).", "occurred_at": "2025-04-23 08:00:00", "effort": 3.0, "duration": 30} [✅ 1.1]
+2025-04-24 22:02:41 - CREATE ACTIVITY LOG: {"name": "Self-care & simple meal preparation", "description": "Stuck to baseline routine: 30m total upright activity (self-care, simple meal).", "occurred_at": "2025-04-24 08:00:00", "effort": 3.0, "duration": 30}
+2025-04-24 22:02:44 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "Consistent with baseline", "occurred_at": "2025-04-23 09:00:00", "intensity": 5.0, "duration": 1440} [✅ 4.1]
+2025-04-24 22:02:44 - CREATE SYMPTOM LOG: {"name": "Brain Fog", "description": "Consistent with baseline", "occurred_at": "2025-04-23 09:00:00", "intensity": 5.0, "duration": 1440} [✅ 4.3]
+2025-04-24 22:02:44 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "Consistent with baseline", "occurred_at": "2025-04-24 09:00:00", "intensity": 5.0, "duration": 1440} [✅ 4.2]
+2025-04-24 22:02:44 - CREATE SYMPTOM LOG: {"name": "Brain Fog", "description": "Consistent with baseline", "occurred_at": "2025-04-24 09:00:00", "intensity": 5.0, "duration": 1440} [✅ 4.4]
+2025-04-24 22:02:44 - CREATE SYMPTOM LOG: {"name": "Vivid Dreams", "description": "Vivid dreams last night, probably related to LDN", "occurred_at": "2025-04-23 23:00:00", "intensity": 4.0, "duration": 480} [✅ 3.1]
