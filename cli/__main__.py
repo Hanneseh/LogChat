@@ -27,6 +27,7 @@ def chat():
         typer.echo(
             f"{typer.style('LogChat:', fg=typer.colors.BLACK, bold=True)} {output}"
         )
+    logchat.post_interaction_routine()
 
 
 if __name__ == "__main__":

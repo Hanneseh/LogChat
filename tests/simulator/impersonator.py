@@ -5,6 +5,7 @@ from langchain_core.messages import trim_messages
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+from src.logger import logger
 from tests.prompts import impersonator_system_prompt
 from tests.simulator.utils import State, end_conversation
 
@@ -74,7 +75,8 @@ class Impersonator:
             }
         )
         if LOG_FULL_PROMPT:
-            print(f"Impersonator prompt: {prompt.to_string()}")
+            logger.debug(f"IMPERSONATOR PROMPT\n{prompt.to_string()}")
+
         model_output = self.model.invoke(prompt)
 
         for tool_call in model_output.tool_calls:

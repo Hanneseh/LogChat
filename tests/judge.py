@@ -11,10 +11,12 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from numpy import average
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+from src.logger import logger
 from tests.prompts import judge_instructions, judge_system_prompt
 
 load_dotenv()
 
+LOG_FULL_PROMPT = os.getenv("LOG_FULL_PROMPT", "false").lower() == "true"
 JUDGE_LLM = os.getenv("JUDGE_LLM", "gemini-2.5-pro-preview-05-06")
 TEMPERATURE = 0.1
 TOP_P = 0.5
@@ -187,7 +189,8 @@ def run_judge(
                     "messages": [HumanMessage(user_message)],
                 }
             )
-            # print(prompt.to_string())
+            if LOG_FULL_PROMPT:
+                logger.debug(f"JUDGE PROMPT\n{prompt.to_string()}")
 
             model_response = model.invoke(prompt)
 
