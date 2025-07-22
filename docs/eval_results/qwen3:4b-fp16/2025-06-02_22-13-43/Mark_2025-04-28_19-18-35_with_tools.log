@@ -1,0 +1,47 @@
+2025-04-28 19:18:36 - LogChat: Hi Mark, did you manage to do more than the baseline routine today?
+2025-04-28 19:18:37 - Mark: Hi. Yes, a little. I actually feel like I'm paying for it now, though.
+2025-04-28 19:18:41 - LogChat: I hear you, Mark. You mentioned feeling like you're paying for the extra activities today. Could you share how much effort (1-10) it took to do those additional tasks and how long you were able to stay active before needing to rest?
+2025-04-28 19:18:42 - Mark: Well, yesterday, I went for a short walk outside. Just 10 minutes. It felt like low effort at the time, maybe a 3 out of 10. But today, my fatigue is high, and I'm having trouble concentrating. Also, I skipped logging for the last two days, the 26th and 27th. I was mostly resting.
+2025-04-28 19:18:47 - LogChat: I hear you, Mark. You mentioned the 10-minute walk yesterday felt like low effort, maybe a 3 out of 10. Could you share how much effort it took to do that walk and how long you were able to stay active before needing to rest today?
+2025-04-28 19:18:48 - Mark: I haven't done much *today*. That's the problem. I'm wiped out. I also feel dizzy when I stand up. On Friday, I had a video call. I felt okay afterwards, no major crash. I think the rest I had beforehand helped.
+2025-04-28 19:18:53 - LogChat: I hear you, Mark. You mentioned the 10-minute walk yesterday felt like low effort, maybe a 3 out of 10. Could you share how much effort it took to do that walk and how long you were able to stay active before needing to rest today?
+2025-04-28 19:18:54 - Mark: The walk yesterday was 3/10 effort. Today I haven't been active, I'm wiped out.
+2025-04-28 19:18:58 - LogChat: I hear you, Mark. You mentioned feeling wiped out today and not being able to do much. Could you rate the effort (1-10) of today’s activities and how long you were able to stay active before needing to rest, even if it was just sitting or resting?
+2025-04-28 19:19:00 - Mark: Today? I haven't really done anything. So, effort 1/10. Active time zero. I'm just resting because of the fatigue and brain fog.
+2025-04-28 19:19:04 - LogChat: I hear you, Mark. You mentioned feeling wiped out today with low effort and no activity. Could you rate the severity of your fatigue and brain fog on a 1-10 scale and note any new symptoms you're experiencing today?
+2025-04-28 19:19:06 - Mark: Fatigue is maybe 8/10. Brain fog... 7/10. And I feel dizzy when I stand up.
+2025-04-28 19:19:10 - LogChat: I hear you, Mark. You mentioned feeling dizzy when standing up and rating your fatigue and brain fog. Could you rate the severity of your dizziness on a 1-10 scale and note if it's new or has been present for a while?
+2025-04-28 19:19:12 - Mark: It's not new. Maybe 6/10. It comes and goes. I read on a forum about people using heart rate monitors... Can you tell me more about that?
+2025-04-28 19:19:18 - RETRIEVE INFORMATION - Args: {"query": "How can heart rate monitors be used to manage symptoms in ME/CFS or Long COVID?"}
+2025-04-28 19:19:23 - LogChat: I hear you, Mark. You mentioned using a heart rate monitor and wanting to know more about it. Based on my knowledge, wearable devices like heart rate monitors can help track your body’s response to activity, which can be useful for pacing. Would you mind sharing if you’ve started using any wearable devices and how you’re incorporating the data into your daily management?
+2025-04-28 19:19:26 - Mark: Not yet. I just read about it. I don't know how it works.
+2025-04-28 19:19:35 - LogChat: Based on my knowledge, heart rate monitors can help track your body’s response to activity, which can be useful for pacing. You mentioned you’ve read about them but aren’t using them yet—would you mind sharing if you’ve started using any wearable devices and how you’re incorporating the data into your daily management?
+2025-04-28 19:19:38 - SUMMARIZED INTERACTION: * **Condition Trend:** Seems worse than yesterday due to PEM; Fatigue and brain fog remain high; Dizziness noted as a persistent symptom  
+* **Key Symptoms & Details:** Fatigue 8/10, Brain Fog 7/10, Dizziness 6/10 (not new); Dizziness occurs when standing up  
+* **Key Activities & Details:** 10-minute walk yesterday (3/10 effort); No activity today (effort 1/10, active time 0)  
+* **User Concerns/Focus:** Focused on tracking activity load; Asked about heart rate monitors and their use in managing symptoms  
+* **Strategies/Treatments Mentioned:** No specific strategies or treatments mentioned beyond logging and pacing  
+* **Significant Events/Deviations:** Skipped logging for the last two days (26th and 27th); No new symptoms reported beyond dizziness, fatigue, and brain fog
+2025-04-28 19:19:41 - UPDATED USER DESCRIPTION: **About Me:**  
+I am a person who has been experiencing symptoms consistent with ME/CFS or Long COVID. I am 35 years old and live alone. I do not have a primary caregiver or person who helps me with daily tasks. I was previously a teacher before my illness. I was diagnosed with ME/CFS after a prolonged period of fatigue and other symptoms, though I am still learning about the condition.  
+
+**Current Condition Status:**  
+I have been diagnosed with ME/CFS. My illness has been ongoing for approximately 6 months. My condition is fluctuating, with periods of higher severity. My typical severity is moderate to severe, with frequent fatigue and muscle aches. I experience PEM (Post-Exertional Malaise) that occurs 48-72 hours after physical exertion. I am aware of my condition but am still learning about it, and I need more educational support. Dizziness is now a noted persistent symptom.  
+
+**Current Functional Capacity:**  
+I am housebound most of the time due to my symptoms. I am unable to work or study full-time. I use a wheelchair for mobility. I require assistance with most Activities of Daily Living (ADLs), including personal care and meal preparation.  
+
+**Daily Routine:**  
+I have a baseline routine that includes essential self-care activities such as hygiene and dressing, which take about 20 minutes and require 7/10 effort. I also do simple meal prep, which takes 20 minutes and requires 5/10 effort. I typically sit during these activities. I rely on assistance for most of my daily tasks.  
+
+**Activities I Enjoy/Attempt:**  
+I enjoy gardening, though it is a challenging activity that can lead to PEM crashes. I have attempted gardening for short periods, such as 20 minutes, but it has caused significant fatigue. I also try to engage in simple self-care activities, though I need assistance with many tasks.  
+
+**My Typical Activity Level:**  
+My energy levels are generally low, and I manage my activity through strict pacing. I often experience push-crash cycles, where I push myself to do something and then crash afterward. I try to be proactive about rest, but I struggle to maintain consistency.  
+
+**My Preferred Interaction Style with LogChat:**  
+I prefer to be direct and straightforward when providing information about my symptoms and activities. I am motivated to use LogChat to track my condition, but I find it tiring to interact with it for extended periods. I need short and concise messages to avoid overwhelm.
+2025-04-28 19:20:29 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "High fatigue today", "occurred_at": "2025-04-28 19:20:25", "intensity": 8.0, "duration": 1440}
+2025-04-28 19:20:29 - CREATE SYMPTOM LOG: {"name": "Brain Fog", "description": "High brain fog today", "occurred_at": "2025-04-28 19:20:25", "intensity": 7.0, "duration": 1440}
+2025-04-28 19:20:29 - CREATE SYMPTOM LOG: {"name": "Dizziness", "description": "Dizziness when standing up", "occurred_at": "2025-04-28 19:20:25", "intensity": 6.0, "duration": 1440}

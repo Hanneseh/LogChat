@@ -1,0 +1,60 @@
+Performance Score:
+Nr. Of total input items: 5
+Nr. of achieved input items: 5
+Nr. of total output items: 5
+Nr. of achievable output items: 5
+Nr. of achieved output items: 4
+Score: 4/5 = 0.8000
+
+
+**Evaluation Checklist:**
+1. Sarah has skipped interacting for two days (Apr 28th, Apr 29th). ✅
+   1.1 LogChat created 'Baseline Only' or 'Rest Day' log entries for the two skipped days. (No log entries for Apr 28th or Apr 29th found) ❌
+2. Sarah asks to log a longer activity: 'Cognitive work session, 45 min, effort 5/10'. ✅
+   2.1 LogChat called the `log_activity` tool with the correct parameters. ✅
+3. Sarah asks to log her post-activity symptom: 'Fatigue, severity 4/10'. ✅
+   3.1 LogChat called the `create_symptom_log` tool with the correct parameters. ✅
+4. Sarah's overall interaction demonstrates an intentional test of her limits. ✅
+   4.1 LogChat's `Summarizer` node should capture the 'Functional Capacity: Increased' or 'Testing expanded envelope' in its summary. ✅
+5. Sarah stops responding. ✅
+   5.1 LogChat created a structured summary for the conversation thread, noting the symptom improvement. ✅
+
+**Conversation Log:**
+2025-04-30 14:45:36 - LogChat: Hi Sarah, how are your symptoms after reading the technical article yesterday?
+2025-04-30 14:45:37 - Sarah: Brain fog was better yesterday, 3/10. I'm testing my new energy envelope today. I want to log a work session. [✅ 4.]
+2025-04-30 14:45:41 - LogChat: How did the work session go today? Could you share how long you spent working and what effort rating you would give the session on a scale from 1 to 10?
+2025-04-30 14:45:42 - Sarah: Log activity: Cognitive work session, duration: 45 minutes, effort: 5/10. [✅ 2.]
+2025-04-30 14:45:46 - LogChat: Did the work session today affect your brain fog or fatigue levels? Did you notice any new PEM symptoms like increased tiredness or difficulty thinking clearly after the session?
+2025-04-30 14:45:47 - Sarah: Log symptom: Fatigue, severity: 4/10. This is less than I would have expected. That's all I wanted to log for now. I'm done logging for the day and will end the interaction. [✅ 3.] [✅ 4.] [✅ 5.]
+2025-04-30 14:45:51 - LogChat: Okay, Sarah, thanks for sharing. Rest well, and I'm here when you're ready to log again.
+2025-04-30 14:45:52 - SUMMARIZED INTERACTION: --- Start Summary ---
+* **Condition Trend:** Stable with slight improvement in brain fog compared to yesterday. [✅ 5.1]
+* **Key Symptoms & Details:** Fatigue 4/10 - lower than expected; Brain fog improved to 3/10 from yesterday. [✅ 5.1]
+* **Key Activities & Details:** Cognitive work session (45m, 5/10 effort).
+* **User Concerns/Focus:** Testing new energy envelope; focused on logging a work session and assessing symptom impact. [✅ 4.1]
+* **Strategies/Treatments Mentioned:** Continuing LDN treatment; using pacing to manage activity levels.
+* **Significant Events/Deviations:** No significant deviations; completed a work session with minimal symptom impact.
+--- End Summary ---
+2025-04-30 14:45:54 - UPDATED USER DESCRIPTION: **About Me:**  
+I am a person living with ME/CFS, diagnosed several years ago. I am in my early 30s and currently live alone. I have no family members who assist me in my daily life, but I occasionally receive help from a friend who visits weekly. Prior to my illness, I worked as a graphic designer. My diagnosis was triggered by a prolonged period of severe fatigue and cognitive dysfunction following a viral infection.
+
+**Current Condition Status:**  
+I have ME/CFS, and my illness has been ongoing for about three years. My condition is classified as moderate, with symptoms that fluctuate. My key recurring symptoms include brain fog (rated 3/10), fatigue (rated 4/10), and vivid dreams (rated 4/10). I am aware of PEM triggers, including cognitive activities and physical exertion. PEM typically onset within a few hours after exertion. I have read some information about my condition and understand the importance of pacing, but I still need more educational support to better manage my symptoms. I am currently taking Low-Dose Naltrexone (LDN) as part of my treatment plan, and I am tracking its effects on my symptoms. Recent improvements in brain fog suggest a positive response to LDN.
+
+**Current Functional Capacity:**  
+I am housebound but can move around my home with assistance. I am unable to work full-time, but I manage remote work in short bursts. I require help with meal preparation and some self-care tasks. I use a wheelchair for mobility and have difficulty with Activities of Daily Living (ADLs), such as dressing and personal hygiene, which I often need assistance with.
+
+**Daily Routine:**  
+My daily routine includes essential self-care tasks like hygiene and dressing, which I manage with help. I prepare simple meals and make my own breakfast, which takes about 10 minutes and is rated as 3/10 in effort. I also engage in short periods of remote work, which lasts about 25 minutes and is rated as 4/10 in effort. I typically sit during these activities and take frequent breaks to rest. On days when I am resting, I focus on maintaining baseline activity levels and monitoring symptom patterns, particularly in relation to my LDN treatment. Recently, I engaged in reading a technical article for 15 minutes with an effort rating of 4/10, indicating improved cognitive function. I also completed a cognitive work session for 45 minutes with an effort rating of 5/10, suggesting a slight increase in my capacity for structured tasks. [✅ 4.1]
+
+**Activities I Enjoy/Attempt:**  
+I enjoy remote work and making breakfast, though both are challenging due to my limited energy. I attempt to stay as independent as possible, but I often need to modify tasks to make them manageable. I have recently engaged in reading a technical article, which I found manageable without needing to stop, suggesting a positive shift in cognitive function. I have also completed a cognitive work session, which I found manageable with minimal symptom impact, indicating a slight improvement in my ability to engage in structured tasks.
+
+**My Typical Activity Level:**  
+My overall energy levels are low, and I manage activity through strict pacing. I often experience push-crash cycles, where I have short bursts of activity followed by periods of rest. I try to be proactive about rest to avoid PEM, but I sometimes struggle to balance activity and recovery. I have been focusing on maintaining baseline activity levels and monitoring how my symptoms respond to LDN treatment. Recent improvements in brain fog and the ability to focus on a technical article and complete a work session suggest a more stable and manageable activity level.
+
+**My Preferred Interaction Style with LogChat:**  
+I prefer to be straightforward and provide symptoms and activities with effort and intensity ratings. I am motivated to use LogChat to track my condition and manage my symptoms. However, interacting with LogChat can be tiring, so I need short and concise messages to avoid overwhelm. I appreciate help with remembering specific details and staying on track with my self-management strategies.
+2025-04-30 14:46:08 - CREATE ACTIVITY LOG: {"name": "Cognitive work session", "description": "Work session with focus on cognitive tasks", "occurred_at": "2025-04-30 14:00:00", "effort": 5.0, "duration": 45} [✅ 2.1]
+2025-04-30 14:46:10 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "Fatigue after cognitive work session", "occurred_at": "2025-04-30 14:45:00", "intensity": 4.0, "duration": 1440} [✅ 3.1]
+# Missing Log: LogChat did not create 'Baseline Only' or 'Rest Day' log entries for Apr 28th or Apr 29th. [❌ 1.1]

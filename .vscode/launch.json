@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LogChat EVAL",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "tests/eval.py",  
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "LogChat JUDGE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "tests/judge.py",  
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "LogChat PLOTTER",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "tests/plotter.py",  
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "LogChat CLI",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "cli.__main__",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+2025-04-24 22:27:05 - LogChat: Hi Sarah, how's your brain fog today after starting the LDN treatment?
+2025-04-24 22:27:06 - Sarah: Brain fog 5/10. Fatigue 5/10. Same as yesterday. Mostly resting both days, no significant activities besides baseline.
+2025-04-24 22:27:38 - RETRIEVE ACTIVITY LEVEL - Args: {"time_period_start": "2025-04-23", "time_period_end": "2025-04-24"}
+2025-04-24 22:28:09 - LogChat: Thanks for sharing, Sarah. It sounds like you're managing a consistent baseline of fatigue and brain fog at around 5/10 each day. Could you tell me about your typical resting routine - how many hours do you usually spend resting or sleeping?
+2025-04-24 22:28:10 - Sarah: Resting routine is variable, mostly lying down and listening to audiobooks. Hours vary. Today, took first dose of Low-Dose Naltrexone (LDN) as prescribed. Also, vivid dreams last night, severity: 4/10. Other activities and symptoms (fatigue, brain fog) consistent with baseline, unchanged.
+2025-04-24 22:28:42 - RETRIEVE ACTIVITY LEVEL - Args: {"time_period_start": "2025-04-22", "time_period_end": "2025-04-23"}
+2025-04-24 22:29:18 - LogChat: Based on my knowledge, rest is a crucial part of managing ME/CFS and Long COVID symptoms like fatigue and brain fog. It's interesting that you're noticing vivid dreams since starting LDN - some people report this as their body adjusts to the medication. Could you tell me how many hours you typically spend resting each day, and whether there are times when your rest feels more or less effective at managing your energy levels?
+2025-04-24 22:29:19 - SUMMARIZED INTERACTION: --- Start Summary ---
+
+* **Condition Trend:** Stable baseline symptoms (fatigue and brain fog both 5/10) over two days with no significant changes.
+
+* **Key Symptoms & Details:** 
+    - Brain Fog: 5/10, unchanged from previous day
+    - Fatigue: 5/10, unchanged from previous day
+    - Vivid dreams reported (4/10 severity)
+
+* **Key Activities & Details:** 
+    - Resting routine: variable hours spent lying down and listening to audiobooks
+    - LDN treatment started today
+
+* **User Concerns/Focus:** 
+    - Monitoring effectiveness of new LDN treatment
+    - Observing changes in sleep patterns (vivid dreams)
+
+* **Strategies/Treatments Mentioned:** 
+    - Low-Dose Naltrexone (LDN) treatment initiated
+    - Rest as primary management strategy
+
+* **Significant Events/Deviations:** 
+    - First day of LDN treatment
+    - No significant deviations from baseline routine reported
+
+--- End Summary ---
+2025-04-24 22:29:38 - UPDATED USER DESCRIPTION: **About Me:**
+I am a working professional who has been diagnosed with ME/CFS. I live independently and manage my daily life with the support of remote work accommodations. My condition was triggered by an infection, leading to significant changes in my ability to function.
+
+**Current Condition Status:**
+My diagnosis is ME/CFS, confirmed after several years of symptoms. The illness has persisted for over 5 years now. I experience moderate fatigue and brain fog on a daily basis, currently rated at 5/10 each. My PEM triggers include physical exertion, cognitive tasks, and emotional stress. I've recently started LDN treatment as part of my management strategy.
+
+**Current Functional Capacity:**
+I am able to work remotely but with significant limitations. I can manage basic self-care activities independently but require pacing to avoid post-exertional malaise. My mobility is limited primarily by fatigue rather than physical restrictions, though standing and walking for extended periods are challenging.
+
+**Daily Routine:**
+My day begins with essential morning hygiene (10-15 minutes) at a moderate effort level. I prepare simple breakfasts that take about 10 minutes with minimal cognitive load. My remote work sessions are limited to 25-minute intervals, requiring careful pacing and rest periods between tasks.
+
+**Activities I Enjoy/Attempt:**
+I enjoy engaging in light activities like reading (with breaks) and short walks around my neighborhood when energy permits. These activities require careful planning and monitoring of effort levels to prevent post-exertional crashes. Recently, I've been incorporating audiobooks into my resting routine as a low-effort activity.
+
+**My Typical Activity Level:**
+I maintain a strict pacing approach, carefully tracking the duration and intensity of all activities. My energy is limited, so I prioritize essential tasks and rest periods throughout the day. Push-crash cycles are avoided through meticulous attention to activity limits.
+
+**My Preferred Interaction Style with LogChat:**
+I prefer structured interactions where I can provide detailed information about my symptoms and activities using a rating system (1-10 for effort). This helps me maintain accurate records of my condition's response to treatments like LDN. While I can engage in longer conversations, shorter, focused exchanges are less taxing on my cognitive resources.
+2025-04-24 22:30:47 - CREATE ACTIVITY LOG: {"name": "Resting Routine", "description": "Variable hours spent lying down listening to audiobooks. LDN treatment started today.", "occurred_at": "2025-04-24 08:00:00", "effort": 1.0, "duration": 30}
+2025-04-24 22:30:47 - CREATE ACTIVITY LOG: {"name": "Estimated Baseline (Past Day)", "description": "No interaction logged for past day, assuming baseline activity.", "occurred_at": "2025-04-23 08:00:00", "effort": 2.0, "duration": 30}
+2025-04-24 22:31:18 - CREATE SYMPTOM LOG: {"name": "Brain Fog", "description": "5/10 brain fog after starting LDN treatment", "occurred_at": "2025-04-24 22:30:47", "intensity": 5.0, "duration": 1440}
+2025-04-24 22:31:18 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "5/10 fatigue after starting LDN treatment", "occurred_at": "2025-04-24 22:30:47", "intensity": 5.0, "duration": 1440}
+2025-04-24 22:31:18 - CREATE SYMPTOM LOG: {"name": "Vivid Dreams", "description": "vivid dreams with severity of 4/10 after starting LDN treatment", "occurred_at": "2025-04-24 22:30:47", "intensity": 4.0, "duration": 1440}

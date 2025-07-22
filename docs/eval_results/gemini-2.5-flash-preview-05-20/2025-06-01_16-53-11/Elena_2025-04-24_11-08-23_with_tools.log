@@ -1,0 +1,44 @@
+2025-04-24 11:08:26 - LogChat: Hi Elena, good to see you back. How are you feeling today after the crash?
+2025-04-24 11:08:27 - Elena: Hi LogChat. Well, I skipped checking in yesterday. I just needed total rest, you know? I hope you only logged the baseline stuff, like bathroom trips and just existing.
+
+Today, the crash is... a little less intense, thankfully. But the fatigue is still pretty severe.
+2025-04-24 11:08:37 - LogChat: I completely understand needing total rest after a crash, Elena. For yesterday, I can log your baseline activities like bathroom trips and eating with their usual effort and duration. Were there any other activities or symptoms you'd like to log for yesterday? For today, how severe is your fatigue on a scale of 1 to 10, and have you had any activities?
+2025-04-24 11:08:38 - Elena: No, that's okay about yesterday. Just the basics.
+
+Today... the fatigue is maybe an 8/10. I haven't really done anything yet. It's so hard to just lie here and do nothing... How do you stop feeling so guilty for resting?
+2025-04-24 11:08:40 - RETRIEVE INFORMATION - Args: {"query": "managing guilt for resting ME/CFS Long COVID"}
+2025-04-24 11:08:46 - LogChat: It's completely understandable to feel guilty for resting, Elena, that's a very common experience for people with ME/CFS or Long COVID. Based on my knowledge, rest isn't "doing nothing"; it's actually a crucial and productive part of recovery, especially after a crash. Your energy is best directed towards healing, and allowing yourself to rest is a vital step in that process.
+2025-04-24 11:08:47 - Elena: I know, I know that in my head. It's just... hard to accept.
+2025-04-24 11:08:52 - LogChat: It sounds like it's a real struggle to reconcile what you know intellectually with how you feel emotionally, Elena. You mentioned yesterday that doing "too much" led to your crash; how does connecting your current need for rest with preventing another crash, or recovering from this one, feel to you?
+2025-04-24 11:08:53 - Elena: It makes sense, I guess. If I don't rest, I'll just end up worse. It's happened enough times... Okay, thanks, I need to rest now.
+2025-04-24 11:08:56 - LogChat: Understood, Elena. Rest is so important right now. Take good care, and I'm here whenever you're ready to log again.
+2025-04-24 11:08:57 - SUMMARIZED INTERACTION: *   **Condition Trend:** Crash is a little less intense today compared to yesterday.
+*   **Key Symptoms & Details:** Fatigue 8/10 today; fatigue still pretty severe.
+*   **Key Activities & Details:** Skipped logging yesterday to rest; Logged only baseline activities (bathroom trips, eating) for yesterday; Hasn't done anything today.
+*   **User Concerns/Focus:** Expressed feeling guilty for resting; Struggling to accept rest despite knowing its importance; Acknowledged resting prevents worsening.
+*   **Strategies/Treatments Mentioned:** Focused on the importance of total rest for recovery.
+*   **Significant Events/Deviations:** Skipped checking in yesterday due to needing total rest.
+2025-04-24 11:09:04 - UPDATED USER DESCRIPTION: **About Me:**
+I live with my husband, who assists me with daily tasks like going to the bathroom. I also have a son whom I try to help with homework.
+
+**Current Condition Status:**
+I am experiencing symptoms highly consistent with ME/CFS or Long COVID. I am currently in a severe PEM crash, feeling "drained" and "hit by a truck," and am stuck in bed. The crash is a little less intense today compared to yesterday. My fatigue is 8/10 today (down from 10/10 yesterday), my headache was 8/10 and pounding yesterday, and I have brain fog, making it difficult to think straight. I also had light sensitivity at 8/10 yesterday, which made my headache worse. My PEM is triggered by cognitive and stressful exertion, with symptoms typically worsening throughout the evening after these activities. I understand that I experience PEM and that I did "too much" recently, leading to this crash.
+
+**Current Functional Capacity:**
+I am very limited in my activities and appear to be housebound, currently stuck in bed. I require assistance from my husband for basic activities like going to the bathroom. I also have difficulty with other basic activities like eating, and recently I had little energy or appetite to eat much.
+
+**Daily Routine:**
+My established daily routine includes essential self-care like going to the bathroom, which takes about 10 minutes and feels like a 6/10 effort, requiring assistance from my husband. I also attempt to eat, which usually takes about 20 minutes and feels like a 3/10 effort, though I've eaten little recently. For the past couple of days, I have had no activities beyond baseline self-care and have mostly been just lying in bed.
+
+**Activities I Enjoy/Attempt:**
+When not in a severe crash, I attempt to help my son with his homework, sitting on my bed, which takes about 30 minutes and is a 7/10 mental effort. I also had a stressful 15-minute phone call with the school recently, which was a 7+/10 effort. Currently, I have not attempted any activities and am just lying in bed.
+
+**My Typical Activity Level:**
+I tend to overexert myself, leading to severe PEM crashes, as I am experiencing now. I acknowledge that I did "too much" recently, resulting in my current severe symptoms and being stuck in bed. I feel frustrated, useless, and like a burden due to my condition. I also feel guilty for resting and struggle to accept it, despite knowing its importance for preventing worsening symptoms.
+
+**My Preferred Interaction Style with LogChat:**
+As this is my first few interactions, I am able to provide specific details about my symptoms with intensity ratings and activities with duration and effort levels. However, given my current severe fatigue and difficulty with basic activities, especially being in a severe crash, I prefer short and concise messages to avoid overwhelm. I am also feeling frustrated and burdened, which may come through in my messages. I even skipped logging one day to prioritize rest.
+2025-04-24 11:09:21 - CREATE ACTIVITY LOG: {"name": "Estimated Baseline (Past Day)", "description": "No interaction logged for past day, assuming baseline activity.", "occurred_at": "2025-04-23 08:00:00", "effort": 4.5, "duration": 30}
+2025-04-24 11:09:21 - CREATE ACTIVITY LOG: {"name": "Assumed Daily Routine", "description": "Assuming baseline activity for today based on profile/lack of specifics.", "occurred_at": "2025-04-24 08:00:00", "effort": 4.5, "duration": 30}
+2025-04-24 11:09:24 - CREATE SYMPTOM LOG: {"name": "PEM Crash", "description": "User reported PEM crash, a little less intense today", "occurred_at": "2025-04-24 00:00:00", "intensity": 7.0, "duration": 1440}
+2025-04-24 11:09:24 - CREATE SYMPTOM LOG: {"name": "Fatigue", "description": "still pretty severe", "occurred_at": "2025-04-24 00:00:00", "intensity": 8.0, "duration": 1440}

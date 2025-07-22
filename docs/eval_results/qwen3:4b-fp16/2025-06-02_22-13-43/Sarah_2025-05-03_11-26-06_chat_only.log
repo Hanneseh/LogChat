@@ -1,0 +1,9 @@
+2025-05-03 11:26:07 - LogChat: Hi Sarah, how is the brain fog after your cognitive work session today?
+2025-05-03 11:26:08 - Sarah: Brain fog is at 2/10. I'd like to use the data to verify my perceived improvements. I need you to retrieve some activity scores.
+2025-05-03 11:26:18 - LogChat: Your activity levels for 2025-04-24 were 105.0, dropped to 90.0 on 2025-04-27, then spiked to 225.0 on 2025-04-30 before falling back to 0.0 on 2025-05-03. How does this pattern align with your feelings of brain fog and energy levels?
+2025-05-03 11:26:18 - Sarah: Can you retrieve my calculated activity score for April 22nd? That was a baseline day before I started the medication.
+2025-05-03 11:26:27 - LogChat: Your activity score on April 22nd was 190.0, which is the baseline day before you started the medication. Comparing this to the scores on April 24th (105.0), 27th (90.0), and 30th (225.0), how does this pattern align with your feelings of brain fog and energy levels?
+2025-05-03 11:26:28 - Sarah: Now, can you retrieve the activity score for April 30th, the day I did the longer work session?
+2025-05-03 11:26:36 - LogChat: Your activity score for April 30th was 225.0, which is significantly higher than the baseline day on April 22nd (190.0). How does this increase align with your reported brain fog level of 2/10?
+2025-05-03 11:26:37 - Sarah: Perfect. Please show me the comparison of those two scores.
+2025-05-03 11:26:45 - LogChat: Your activity score on April 22nd was 190.0, and on April 30th it was 225.0. How does this increase align with your reported brain fog level of 2/10?
